@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="de">
+
+    <head>
+
+      <!--standard:head-->
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+        <link rel="apple-touch-icon" href="older-iPhone.png"> <!--120px-->
+        <link rel="apple-touch-icon" sizes="180x180" href="iPhone-6-Plus.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="iPad-Retina.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="iPad-Pro.png">
+        <link rel="shortcut icon" sizes="196x196" href="favicon-196.png">
+
+        <meta charset="utf-8">
+        <title>TechLabs - We Build. Digital. Shapers.</title>
+        <meta name="description" content="We Build. Digital. Shapers." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache">
+
+        <!--critical styles load first, other stylesheets second-->
+        <style>:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#868e96;--gray-dark:#343a40;--primary:#007bff;--secondary:#868e96;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h1,h4{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}a{touch-action:manipulation}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h4,.h2,.h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h1{font-size:2.5rem}.h2{font-size:2rem}h4{font-size:1.5rem}.h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media(min-width:576px){.container{max-width:540px}}@media(min-width:768px){.container{max-width:720px}}@media(min-width:992px){.container{max-width:960px}}@media(min-width:1200px){.container{max-width:1140px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-3,.col-9,.col-md-2,.col-md-3,.col-md-4,.col-md-8,.col-md-9,.col-md-10,.col-md-12,.col-lg-1,.col-lg-11{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col-3{flex:0 0 25%;max-width:25%}.col-9{flex:0 0 75%;max-width:75%}@media(min-width:768px){.col-md-2{flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-md-3{flex:0 0 25%;max-width:25%}.col-md-4{flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-md-8{flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-md-9{flex:0 0 75%;max-width:75%}.col-md-10{flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-md-12{flex:0 0 100%;max-width:100%}}@media(min-width:992px){.col-lg-1{flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-lg-11{flex:0 0 91.6666666667%;max-width:91.6666666667%}}.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem}
+        </style>
+        <link href="css/stack-interface.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/socicon.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme-cedar.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+
+      <!--page-specific-->
+
+    </head>
+
+    <body data-smooth-scroll-offset="77">
+
+      <!--standard:navigation-->
+
+        <div class="nav-container">
+            <div class="via-1519749956547" via="via-1519749956547" vio="Home">
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                <a href="index.html" target="_self"> <img class="logo logo-dark" alt="logo" src="img/logo/sketchlogo.png"> <img class="logo logo-light" alt="logo" src="img/logo/sketchlogo.png"> </a>
+                            </div>
+                            <div class="col-9 col-md-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="index.html" target="_self"> <img class="logo logo-dark" alt="logo2" src="img/logo/sketchlogo.png"> <img class="logo logo-light" alt="logo" src="img/logo/sketchlogo.png"> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li> <a href="index.html">Home</a> </li>
+                                        <li> <a href="program.html">Programm</a> </li>
+                                        <li> <a href="team.html">Team</a> </li>
+                                        <li> <a href="kontakt.html">Kontakt</a> </li>
+                                    </ul>
+                                </div>
+                               <!-- <div class="bar__module">
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="#purchase-template"> <span class="btn__text">Contact US</span> </a>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div><!--nav-container-->
+
+        <!--page-specific:content-->
+
+        <div class="main-container">
+
+            <section class="text-center">
+                <div class="container">
+                    <h1>WIR SIND TECHLABS</h1>
+                    <div class="row">
+
+                        <br>
+                        <h4 style="color: black;"><b>Ein interdisziplinäres Team von ambitionierten Studenten vereint in einer Vision:</b>
+                         Anderen Studenten digitale Skills effektiv zu vermitteln und für Tech zu begeistern um neue Generation digitaler Neudenker zu fördern - <b>unsere Digital Shapers.</b><br><br>
+                         Du teilst unsere Vision und willst deine Ideen in unserem Non-Profit Startup verwirklichen?<br> Melde dich unter <b><a href="mailto:join@tech-labs.de">join@tech-labs.de</a>!</b></h4>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/DavidMiddelbeck_ppt.jpg" alt="David Middelbeck">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>David Middelbeck</b><br>
+                                        <span class="team-text">
+                                            <i>MSc. Information Systems</i><br>
+                                            <a href="https://www.linkedin.com/in/davidmiddelbeck/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>&nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:david.middelbeck@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br><br>
+                                            Data Scientist und Produktmanager (Westphalia DataLab). Studium in Münster (WWU), Brisbane (QUT) und Boston (Harvard/MIT). Praxiserfahrung in der Strategieberatung und der Berliner Startup-Szene. Pianist und Hobbykoch.
+                                            <br>
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">David Middelbeck</h5> <span>Information Systems<br><i>Chairman</i></span>
+
+                            </div>
+                        </div>
+                         <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/mariusvennemann_ppt.jpg" alt="Marius Vennemann">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Marius Vennemann</b><br>
+                                        <span class="team-text">
+                                            <i>MSc. Betriebswirtschaftslehre</i><br>
+                                            <a href="https://www.linkedin.com/in/marius-vennemann/"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:marius.vennemann@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Digital-Stratege und Investor in spe, Quant Fokus. Selbständiger Berater. Praxiserfahrung bei McKinsey, Quadriga Capital und Earlybird Venture Capital. Leidenschaftlicher Coach, Fußballer und e-Sports Enthusiast.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Marius Vennemann</h5> <span>Betriebswirtschaftslehre<br><i>Vice Chairman</i><br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/annah%C3%BClemeier_ppt-sw.jpg" alt="Anna Hülemeier">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Anna Hülemeier</b><br>
+                                        <span class="team-text">
+                                            <i>BSc. Psychologie</i><br>
+                                            <a href="https://www.xing.com/profile/Anna_Huelemeier/cv"><i class="socicon icon socicon-xing icon--xs" style="color:white;"></i></a>&nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:anna.huelemeier@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br><br>
+                                            Data Scientist und Expertin für Testkonstruktion. Praxiserfahrung in der neuro-wissenschaftlichen Forschung. Ehemalige Referentin für den AStA. Trainee in der stud. Unternehmensberatung move. Musikerin und Debattantin.
+                                            <br>
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Anna Hülemeier</h5> <span>Psychologie<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/LarsLoddenkämper_ppt.jpg" alt="Lars Loddenkämpfer">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Lars Loddenkämpfer</b><br>
+                                        <span class="team-text">
+                                            <i>Student Betriebswirtschaftslehre (BSc.)</i><br>
+                                            <a href="https://www.linkedin.com/in/lars-loddenkemper-579268158/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>
+                                            <br><br>&nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:lars.loddenkemper@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            Finanzexperte und Stratege. Aktuell am Finance Center Münster. Mitglied bei Digital Helpers und MBP. Praxiserfahrung bei Miele &amp; Cie. KG und bald bei KPMG. Leidenschaftlicher Fußballer und Skifahrer.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Lars Loddenkämpfer</h5> <span>Betriebswirtschaftslehre<br></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/JonasWagner_ppt-sw.jpg" alt="Jonas Wagner">
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Jonas Wagner</b><br>
+                                        <span class="team-text">
+                                            <i>Student Betriebswirtschaftslehre (BSc.)</i><br>
+                                            <a href="https://www.linkedin.com/in/wagner-j/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:jonas.wagner@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br><br>
+                                            Experte für Strategiethemen (insb. Pricing). Mitglied in einer stud.Unternehmensberatung  move. Praxiserfahrung bei Ernst &amp; Young, Accenture und als selbständiger Berater u.a. für Simon Kucher &amp; Partners und den Mittelstand.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Jonas Wagner</h5> <span>Betriebswirtschaftslehre<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/julianfenten_ppt-sw.jpg" alt="Julian Fenten">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Julian Fenten</b><br>
+                                        <span class="team-text">
+                                            <i>Student Wirtschaftsinformatik (BSc.)</i><br>
+                                            <a href="mailto:julian.fenten@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br><br>
+                                            Digitalisierungs-Begeisterter. Ressortleiter PR der stud. Unternehmensberatung move. Praxiserfahrung bei Lusty &amp; Blundell und im QM von CHECK24. Optimist, Backpacker und Enthusiast für Sport und Geschicklichkeitsspiele.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Julian Fenten</h5> <span>Wirtschaftsinformatik<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/HenryPerschk_ppt.jpg" alt="Henry Perschk">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Henry Perschk</b><br>
+                                        <span class="team-text">
+                                            <i>MSc. Information Systems</i><br>
+                                            <a href="https://www.linkedin.com/in/henryperschk/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>  &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:henry-perschk@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Experte für AI / Deep Learning. Co-Founder &amp; CTO von ItsMyCargo.com. Co-Founder ShoptheWall.com. DevBootcamp Chicago Absolvent. Praktikum bei Pattys in Yiwu, China. Teil des WWU-Teams der Scotiabank International Case Competition in Kanada. Taucher und Wintersportler.
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Henry Perschk</h5> <span>Information Systems<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/piaschürmann_ppt-sw.jpg" alt="Pia Schürmann">
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Pia Schürmann</b><br>
+                                        <span class="team-text">
+                                            <i>Studentin Betriebswirtschaftslehre (BSc.)</i><br>
+                                            <a href="https://www.xing.com/profile/Pia_Schuermann3/cv"><i class="socicon icon socicon-xing icon--xs" style="color:white;"></i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:pia.schuermann@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Expertin für den Mittelstand. IT-Tutorin für Studenten der BWL &amp; VWL an der WWU. Praxiserfahrung in B2B-Lebensmittelindustrie, bald bei IT-Unternehmensberatung. Förderung sozial benachteiligter Schüler mit RockYourLife e.V. aus Überzeugung. Motorradfahrerin.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Pia Schürmann</h5> <span>Betriebswirtschaftslehre<br></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/niklaside_ppt-sw.jpg" alt="Niklas Ide">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Niklas Ide</b><br>
+                                        <span class="team-text">
+                                            <i>Student Humangeographie (MSc.)</i><br>
+                                            <a href="https://www.linkedin.com/in/niklas-ide-a97872153/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:niklas.ide@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br><br>
+                                            Experte für strategische Fragen, insbesondere Akquise und Recruiting. Mitglied in einer stud. Unternehmensberatung move. Praxiserfahrung als selbstständiger Berater für Mittelständler und als Fellow von goetzpartners.
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Niklas Ide</h5> <span>Humangeographie<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/alexanderenglisch_ppt.jpg" alt="Alexander Englisch">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Alexander Englisch</b><br>
+                                        <span class="team-text">
+                                            <i>Medizinstudent &amp; MSc. Exp. Medizin</i><br>
+                                            <a href="mailto:alexander.englisch@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Experte für Biotechnologie, Sprecher des Masterstudienganges Experimentelle Medizin, Doktorand im Themenfeld der zellulären Tumorimmuntherapie, Stipendiat der Studienstiftung des deutschen Volkes, der Konrad-Adenauer Stiftung und der deutschen Krebshilfe.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Alexander Englisch</h5> <span>Medizin<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/JannisHaendke_ppt-sw.jpg" alt="Jannis Haendke">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Jannis Haendke</b><br>
+                                        <span class="team-text">
+                                            <i>Student Politik &amp; Wirtschaft (B.A.)</i><br>
+                                            <a href="https://www.xing.com/profile/Jannis_Haendke/cv"><i class="socicon icon socicon-xing icon--xs" style="color:white;"></i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:jannis.haendke@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Experte für Digital Policy und politiknahe Themen. Erfahrungen im NGO-Umfeld und in der strategischen Kommunikation. Ressortleiter einer stud. Unternehmensberatung im Innovations- und Qualitätsmanagement. Europabegeistert und Tennisspieler.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Jannis Haendke</h5> <span>Politik &amp; Wirtschaft<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/marcboner_ppt.jpg" alt="Marc Boner">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Marc Boner</b><br>
+                                        <span class="team-text">
+                                            <i>Student Betriebswirtschaftslehre (BSc.)</i><br>
+                                            <a href="https://www.linkedin.com/in/marc-boner-2067ab139/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Finanzexperte und Techjunkie. Co-Founder des bdvb Münster. Praktische Erfahrungen bei der Targobank, VWFS und Bertelsmann.  Gewinner der CFO Case Study Competition in Johannesburg. Fußballer und Skilehrer.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Marc Boner</h5> <span>Betriebswirtschaftslehre<br></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/niklasgabrisch_ppt.jpg" alt="Niklas Gabrisch">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Niklas Gabrisch</b><br>
+                                        <span class="team-text">
+                                            <i>BSc. Betriebswirtschaftslehre</i><br>
+                                            <a href="https://www.linkedin.com/in/ngabrisch/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>  &nbsp;&nbsp;&nbsp;
+                                            <a href="mailto:niklas.gabrisch@tech-labs.de"><i class="socicon icon socicon-mail icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Problemlöser für quantitative Finance- und Strategiefragen. Ex-Vorstandsvorsitzender der stud. Unternehmensberatung move.  Praxiserfahrung bei Volkswagen Financial Services und bald bei der Boston Consulting Group. Radreisender.
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Niklas Gabrisch</h5> <span>Betriebswirtschaftslehre<br></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" id="flipper">
+                            <div class="info-card feature feature-8">
+                                <div class="front">
+                                    <img src="img/people/JulianHölzen_ppt.jpg" alt="Julian Hölzen">
+
+                                </div>
+                                <div class="back">
+                                    <div class="card-background">
+                                        <b>Julian Hölzen</b><br>
+                                        <span class="team-text">
+                                            <i>MSc. Wirtschaftsingineurwesen</i><br>
+                                            <a href="https://www.linkedin.com/in/julian-hoelzen-b8614bb7/"><i class="socicon icon socicon-linkedin icon--xs" style="color:white;"></i></a>
+                                            <br>
+                                            <br>
+                                            Experte für Produkterstellung und Energietechnik. Praktische Erfahrungen u.a. bei McKinsey, BCG und Airbus. Ehemaliger Vorstandsvorsitzender der stud. Unternehmensberatung Janus. Teil eines IoT-Startup-Teams. Musiker und Privatpilot.
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="name">Julian Hölzen</h5> <span>Wirtschaftsingineurwesen<br></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--standard:footer-->
+
+            <footer class="footer-6 unpad--bottom">
+                <div class="container">
+                    <div class="row">
+                        <div id="footer-about" class="col-sm-6 col-md-4 text-left text-center-xs">
+                            <h6 class="type--uppercase">Made with&nbsp;♥&nbsp;<i></i>in Münster</h6>
+                            <p>
+                              <a href="impressum.html" target="_self">Impressum</a><br>
+                              <a href="datenschutz.html" target="_self">Datenschutzerklärung</a>
+                            </p>
+                        </div>
+                        <div id="footer-slogan" class="col-sm-6 col-md-4">
+                          <h6 class="type--uppercase text-left text-center-xs">We Build. Digital. Shapers.</h6>
+                        </div>
+                        <!--
+                        <div id="footer-recent" class="col-sm-6 col-md-3">
+                            <h6 class="type--uppercase">Recent Updates</h6>
+                            <div class="tweets-feed tweets-feed-2" data-feed-name="MSTechLabs" data-amount="2"></div>
+                        </div>
+                        <div id="footer-instagram" class="col-sm-6 col-md-3">
+                            <h6 class="type--uppercase">Instagram</h6>
+                            <div class="instafeed instafeed--gapless" data-amount="6" data-grid="3" data-user-name="mstechlabs" data-client-id="df2acaa3ced74f93963a0609c0b54fa1" data-access-token="7189148876.1677ed0.064848d9e4204a72aeb3653ab3d645c6"></div>
+                        </div>
+                      -->
+                        <div id="footer-newsletter" class="col-sm-6 col-md-4">
+                            <h6 class="type--uppercase text-center-xs">Newsletter</h6>
+                            <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Perfekt!  In deinem Postfach findest du jetzt eine Bestätigungsmail." data-error="Bitte gib eine Emailadresse an."> <input class="validate-required validate-email" type="text" name="EMAIL" placeholder="Email Addresse"> <button type="submit" class="btn btn--primary type--uppercase">Subscribe</button>
+                                <div style="position: absolute; left: -5000px" aria-hidden="true"> <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value=""> </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__lower text-center-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                              <span class="type--fine-print">© <span class="update-year">2018</span> TechLabs e.V.&nbsp; —&nbsp; All Rights Reserved</span>
+                            </div>
+                            <div class="col-sm-6 col-md-4 text-left text-center-xs">
+                                <ul class="social-list list-inline">
+                                    <li><a href="https://www.facebook.com/techlabsms"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
+                                    <li><a href="https://instagram.com/mstechlabs" target="_self"><i class="socicon icon socicon-instagram icon--xs"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/techlabs-ev/"><i class="socicon icon socicon-linkedin icon--xs"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer> <!--standard:footer-->
+
+        </div> <!--page-specific:content-->
+
+        <!--standard:scripts-->
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/jquery.fittext.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+        <script src="js/googleoptout.min.js"></script>
+        <script src="https://embed.small.chat/T6QB33X0TG9834KWU9.js" async></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-113533725-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');
+        </script>
+
+        <!--page-specific:scripts-->
+
+    </body>
+
+</html>
