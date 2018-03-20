@@ -258,3 +258,19 @@ section.testimoni {
 .hide-mail::before {
   content: "\0040";    /* Unicode character for @ symbol */
 }
+
+.col-lg-1 {
+   flex: 0 0 50%;
+   max-width: 50%;
+}
+
+.col-lg-11 {
+   flex: 0 0 50%;
+   max-width: 50%;
+}
+
+.col-3, .col-9 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
