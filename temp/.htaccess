@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 # force ssl and non-www for main domain and for all subdomains (except local)
 RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://ihredomain.de/$1 [R=301,L]
 # main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?tld\.org$ [NC]
 RewriteCond %{HTTPS} off [OR]
@@ -23,4 +25,4 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
-</IfModule> 
+</IfModule>
