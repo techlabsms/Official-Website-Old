@@ -5,7 +5,7 @@ RewriteEngine On
 
 # Block 1 - Weiterleitung auf https:// wenn nicht schon aktiv
 RewriteCond %{SERVER_PORT} !=443
-RewriteCond %{HTTP_HOST} ^(www\.)?ihre-domain\.de$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?tech-labs\.de$ [NC]
 RewriteRule ^$ https://www.tech-labs.de/%{REQUEST_URI} [R=301,L]
 
 # Block 2 – doppelten Slash entfernen
@@ -13,12 +13,8 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ //+([^\ ]*)
 RewriteRule .* https://www.tech-labs.de/%1 [R=301,L]
 
 # Block 3 – URL mit www erzwingen
-RewriteCond %{HTTP_HOST} !^www\.ihre-domain\.de$ [NC]
+RewriteCond %{HTTP_HOST} !^www\.tech-labs\.de$ [NC]
 RewriteRule ^(.*)$ https://www.tech-labs.de/$1 [R=301,L]
-
-# Block 4 – index.php entfernen
-RewriteCond %{THE_REQUEST} ^.*/index.php
-RewriteRule ^(.*)index.php$ https://www.tech-labs.de/$1 [R=301,L]
 
 # main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?tld\.org$ [NC]
