@@ -5,4 +5,5 @@ Disallow: /temp/
 Disallow: /_archive/
 Disallow: /img/demos
 Disallow: /img/divers
+Disallow: /impressum.html
 Sitemap: https://tech-labs.de/sitemap.xml
