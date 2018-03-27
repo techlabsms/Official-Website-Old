@@ -255,6 +255,10 @@ section.testimoni {
     padding: 3.33em;
 }
 
+.explain01 {
+    background: #fafafa;
+}
+
 .hide-mail::before {
   content: "\0040";    /* Unicode character for @ symbol */
 }
