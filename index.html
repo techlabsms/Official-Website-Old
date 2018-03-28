@@ -29,8 +29,9 @@
             <link href="css/stack-interface.min.css" rel="stylesheet" type="text/css" media="all">
             <link href="css/socicon.min.css" rel="stylesheet" type="text/css" media="all" />
             <link href="css/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
-            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-            <link href="css/theme-cedar.min.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+            <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+            <link href="css/theme-cedar.css" rel="stylesheet" type="text/css" media="all" />
             <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
 
@@ -54,10 +55,13 @@
             <!-- End Facebook Pixel Code -->
 
         <!--standard:scripts linked-->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
+            <script src="js/jquery-3.2.1.js"></script>
+            <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+            <script src="js/popper.js"></script>
+            <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+            <script src="js/bootstrap.js"></script>
+            <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+            
     <!--page-specific:head-->
         <link rel="preload" href="img/hero/hero-all4_editJH_fg.png" as="image">
         <link rel="preload" href="img/hero/hero-all4_editJH_bg.png" as="image">
@@ -132,7 +136,7 @@
                         <div class="col-md-9">
                             <div class="typed-headline">
                               <span class="h2 inline-block">
-                                <p>Das TechLabs Kickstart Programm.<br>
+                                <p>Das TechLabs Digital Shaper Programm.<br>
                                 </p>
                               </span>
                               <br>
@@ -167,9 +171,9 @@
                 </div>
             </section>
 
-            <section class="text-center mission">
+            <section id="mission" class="text-center">
                 <div class="container">
-                    <h1 style="padding-top: 1em; padding-bottom: 1em;">Austauschen,<br>Lernen,<br>Lösen.</h1>
+                    <h1>Austauschen,<br>Lernen,<br>Lösen.<br><br></h1>
                     <div class="row">
                         <div id="missiontext" class="col-md-12 text-center">
                             <h3>TechLabs ist eine Plattform für junge Leute aller Disziplinen. Wir vermitteln State-of-the-Art Tech-Skills, um die Probleme unserer Zeit digital und unternehmerisch zu lösen.</h3>
@@ -181,7 +185,7 @@
                 </div>
             </section>
 
-            <section class="testimoni">
+            <section id="testimoni" class="sectionspace">
                 <div class="container">
                     <div class="row">
                         <div id="peoplequotes" class="col-md-12">
@@ -232,7 +236,7 @@
                 </div>
             </section>
 
-            <section class="explain01">
+            <section class="explainers sectionspace">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 text-left">
@@ -336,14 +340,13 @@
         </div> <!--page-specific:content-->
 
         <!--standard:scripts-->
-
         <script src="js/jquery.fittext.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/typed.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/flickity.min.js"></script>
         <script src="js/spectragram.min.js"></script>
-        <script src="js/scripts.min.js"></script>
+        <script src="js/scripts.js"></script>
         <script src="js/googleoptout.min.js"></script>
         <script src="https://embed.small.chat/T6QB33X0TG9834KWU9.js" async></script>
         <script>
