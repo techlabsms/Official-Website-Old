@@ -1,3 +1,4 @@
+/* basics */
 .color--primary {
   color: rgb(251,29,92) !important;
 }
@@ -24,18 +25,9 @@ h1 {
     color: white;
 }
 
-.h2.inline-block.typed-text.typed-text--cursor.color--typing {
-    font-size: 320%;
-    white-space: nowrap;
-}
-
 h4   {
     color: rgb(251,29,92);
     font-weight:400;
-}
-
-.h4 inline-block padding top {
-    padding-top: 10%;
 }
 
 h5 {
@@ -44,44 +36,7 @@ h5 {
     margin-top: 10px;
 }
 
-
-#footer-about.col-sm-6.col-md-4 a {
-  text-decoration: none;
-}
-#footer-about.col-sm-6.col-md-4 a:hover {
-  color: rgb(251,29,92);
-  transition-duration: 0.25s;
-}
-
-#footer-about {
-  margin-bottom: 1em;
-}
-#footer-slogan {
-  margin-bottom: 1em;
-}
-#footer-newsletter {
-  margin-bottom: 1em;
-}
-
-.social-list.list-inline :hover {
-  color: rgb(251, 29, 92);
-  transition-duration: 0.25s;
-}
-
-#missiontext.col-md-12.text-center h3 {
-  color: black;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-
-}
-
-#peoplequotes.col-md-12 {
-  padding-top: 3em;
-}
-
-.btn--primary,
-.btn--primary:visited {
+.btn--primary, .btn--primary:visited {
   background: rgb(251,29,92);
   border-color: rgb(251,29,92);
 }
@@ -91,8 +46,7 @@ h5 {
     border-color: rgb(251,29,92);
 }
 
-.btn--second,
-.btn--second:visited {
+.btn--second, .btn--second:visited {
   background: #fff;
   border-color: #fff;
 }
@@ -102,9 +56,59 @@ h5 {
     font-weight: 700;
 }
 
-#coverbtn {
-    margin-top: 3%;
-    margin-bottom: 3%
+.col-lg-1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+ }
+ 
+ .col-lg-11 {
+    flex: 0 0 50%;
+    max-width: 50%;
+ }
+ 
+ .col-3, .col-9 {
+     flex: 0 0 50%;
+     max-width: 50%;
+ }
+/* end basics */
+
+/* header */
+/* end header */
+
+/* footer */
+#footer-about.col-sm-6.col-md-4 a {
+  text-decoration: none;
+}
+#footer-about.col-sm-6.col-md-4 a:hover {
+  color: rgb(251,29,92);
+  transition-duration: 0.25s;
+}
+#footer-about {
+  margin-bottom: 1em;
+}
+#footer-slogan {
+  margin-bottom: 1em;
+}
+#footer-newsletter {
+  margin-bottom: 1em;
+}
+.social-list.list-inline :hover {
+  color: rgb(251, 29, 92);
+  transition-duration: 0.25s;
+}
+.socicon {
+    color:#666666;
+}
+/* end footer */
+
+/* main */
+.h2.inline-block.typed-text.typed-text--cursor.color--typing {
+    font-size: 320%;
+    white-space: nowrap;
+}
+
+.h4 inline-block padding top {
+    padding-top: 10%;
 }
 
 hr.short {
@@ -112,15 +116,16 @@ hr.short {
     border-color: rgb(251,29,92);
 }
 
-.tracklogo {
-    width: 50%;
-    padding-top: 1em;
+.container .headline-black {
+    color: black;
 }
 
-.typed-headline {
-    text-align: left;
+.hide-mail::before {
+    content: "\0040";    /* Unicode character for @ symbol */
 }
+/* end main */
 
+/* page:Home */
 #home-head.cover.unpad--bottom.text-center {
     background-image: url("../img/hero/hero-all4.png");
     background-position: right;
@@ -129,6 +134,62 @@ hr.short {
     padding-bottom: 7%;
     padding-top:7%;
 }
+
+@media (max-width: 768px) {
+    #home-head.cover.unpad--bottom.text-center {
+        background-image: url("../img/hero/hero-all4_editJH_bg.png");
+    }
+    #home-head-fg.col-md-12 {
+        height: 300px;
+        display: block;
+        background-image: url("../img/hero/hero-all4_editJH_fg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20%;
+    }
+}
+
+.coverp {
+    color: #fff;
+    font-weight: 400;
+}
+#coverbtn {
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+.typed-headline {
+    text-align: left;
+}
+
+.mission {
+    background: #fafafa;
+    padding: 3.33em;
+}
+#missiontext.col-md-12.text-center h3 {
+  color: black;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+section.testimoni {
+    padding-top: 3.33em !important;
+}
+#peoplequotes.col-md-12 {
+    padding-top: 3em;
+}
+#testi {
+    font-weight: 300;
+}
+
+.explain01 {
+    background: #fafafa;
+}
+/* end page:Home */
+
+/* page:Programm */
 #programm-head.cover.unpad--bottom.text-center {
     background-image: url("../img/hero/hero-B_v02.png");
     background-position: right;
@@ -139,59 +200,31 @@ hr.short {
 }
 
 @media (max-width: 768px) {
-#home-head.cover.unpad--bottom.text-center {
-      background-image: url("../img/hero/hero-all4_editJH_bg.png");
-}
-#home-head-fg.col-md-12 {
-  height: 300px;
-  display: block;
-  background-image: url("../img/hero/hero-all4_editJH_fg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 20%;
-}
-#programm-head.cover.unpad--bottom.text-center {
-    background-image: url("../img/hero/hero-B_v02_bg.png");
-}
-#programm-head-fg.col-md-12 {
-  height: 300px;
-  display: block;
-  background-image: url("../img/hero/hero-B_v02_fg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 20%;
-  }
-}
-
-.socicon {
-    color:#666666;
-}
-
-.coverp {
-    color: #fff;
-    font-weight: 400;
+    #programm-head.cover.unpad--bottom.text-center {
+        background-image: url("../img/hero/hero-B_v02_bg.png");
+    }
+    #programm-head-fg.col-md-12 {
+        height: 300px;
+        display: block;
+        background-image: url("../img/hero/hero-B_v02_fg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20%;
+    }
 }
 
 .trackinfo {
     text-align: left;
     font-size: 80%;
 }
-
-#testi {
-    font-weight: 300;
+.tracklogo {
+    width: 50%;
+    padding-top: 1em;
 }
+/* end page:Programm */
 
-.container .headline-black {
-    color: black;
-}
-
-#mapkit-5182 {
-    height:400px;
-    width:100%;
-}
-
+/* page:Team */
 .info-card {
     float: left;
     -webkit-perspective: 600px;
@@ -245,36 +278,11 @@ height: 100%;
 .team-text {
     font-size: 70%;
 }
+/* end page:Team */
 
-section.testimoni {
-    padding-top: 3.33em !important;
+/* page:Kontakt */
+#mapkit-5182 {
+    height:400px;
+    width:100%;
 }
-
-.mission {
-    background: #fafafa;
-    padding: 3.33em;
-}
-
-.explain01 {
-    background: #fafafa;
-}
-
-.hide-mail::before {
-  content: "\0040";    /* Unicode character for @ symbol */
-}
-
-.col-lg-1 {
-   flex: 0 0 50%;
-   max-width: 50%;
-}
-
-.col-lg-11 {
-   flex: 0 0 50%;
-   max-width: 50%;
-}
-
-.col-3, .col-9 {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
+/* end page:Kontakt */
