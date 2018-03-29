@@ -7,10 +7,14 @@
     color: #fff;
 }
 
-a {
+a, p a, span a, label a {
   color: rgb(251,29,92);
+  text-decoration: none;
 }
-
+a:hover {
+    color: rgb(258,113,142);
+    text-decoration: none;
+}
 h1 {
     font-size: 300%;
     font-weight: bold;
@@ -81,6 +85,16 @@ iframe {
 /* end header */
 
 /* footer */
+#footbanner {
+    background-color:#b6b6b6;
+    padding-bottom: 1.33em;
+    padding-top: 1.33em;
+}
+#footbanner h4, #footbanner a {
+    color: #fff;
+    margin: 0em;
+    text-decoration: none;
+}
 #footer-about.col-sm-6.col-md-4 a {
   text-decoration: none;
 }
@@ -167,7 +181,7 @@ hr.short {
     margin-bottom: 3%
 }
 
-#mission {
+#mission, #activities {
     background: #fafafa;
 }
 #missiontext.col-md-12.text-center h3 {
@@ -181,19 +195,37 @@ hr.short {
     font-weight: 700;
 }
 
-#testimoni {
+/* ??? */
+.image01 {
+    max-height: 100%;
+    width: auto;
 }
-#peoplequotes.col-md-12 {
+
+#claimbox .image1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,.3)), url("../img/matt-antonioli-532383-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
 }
-#testi {
+#claimbox .image1, #claimbox .image1 h1, #claimbox .image1 h2, #claimbox .image1 h3{
+    color: #fff !important;
+}
+
+/*#testimoni {}*/
+ /*#peoplequotes.col-md-12 {}*/
+
+ #testi {
     font-weight: 300;
 }
 
 .explainers {
     background: #fafafa;
 }
-.explainer1 {
-}
+
 /* end page:Home */
 
 /* page:Programm */
