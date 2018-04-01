@@ -3,7 +3,6 @@
 
     <head>
 
-
     <!--standard:head-->
 
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -30,13 +29,23 @@
             <link href="css/stack-interface.min.css" rel="stylesheet" type="text/css" media="all">
             <link href="css/socicon.min.css" rel="stylesheet" type="text/css" media="all" />
             <link href="css/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
-            <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-                <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+                <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />-->
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <link href="css/theme-cedar.css" rel="stylesheet" type="text/css" media="all" />
             <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-                <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />-->
-            <link href="css/cookieconsent.css" rel="stylesheet" type="text/css" media="all" />
+            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+                <!--<link href="css/cookieconsent.css" rel="stylesheet" type="text/css" media="all" />-->
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet" />
+
+        <!--standard:scripts linked-->
+                <!--<script src="js/jquery-3.2.1.js"></script>-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <!--<script src="js/popper.js"></script>-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <!--<script src="js/bootstrap.js"></script>-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <!--<script src="js/cookieconsent.js"></script>-->
+            <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
         <!--standard:scripts inline-->
             <!-- Facebook Pixel Code -->
@@ -55,17 +64,61 @@
             <noscript>
                 <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=174611373186909&ev=PageView&noscript=1"/>
             </noscript>
-            <!-- End Facebook Pixel Code -->
 
-        <!--standard:scripts linked-->
-            <script src="js/jquery-3.2.1.js"></script>
-                <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
-            <script src="js/popper.js"></script>
-                <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
-            <script src="js/bootstrap.js"></script>
-                <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
-            <script src="js/cookieconsent.js"></script>
-                <!--<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>-->
+            <!-- Cookie Consent -->
+            <script>
+            window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                "background": "#b6b6b6",
+                "text": "#ffffff"
+                },
+                "button": {
+                "background": "#666666",
+                "text": "#ffffff"
+                }
+            },
+            "theme": "classic",
+            "position": "top",
+            "static": true,
+            "type": "opt-out",
+            "content": {
+                "href": "https://www.tech-labs.de/datenschutz.html"
+            }
+            onInitialise: function (status) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+            }
+            },
+            
+            onStatusChange: function(status, chosenBefore) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+            }
+            },
+            
+            onRevokeChoice: function() {
+            var type = this.options.type;
+            if (type == 'opt-in') {
+                // disable cookies
+            }
+            if (type == 'opt-out') {
+                // enable cookies
+            }
+            },
+            })});
+            </script>
 
     <!--page-specific:head-->
         <link rel="preload" href="img/hero/hero-all4_editJH_fg.png" as="image">
@@ -363,6 +416,7 @@
                                         <a href="https://www.facebook.com/techlabsms/posts/564641963892110">Montag, 19. März 2018</a>
                                     </blockquote>
                                 </div>
+                                <p></p>
                         </div>
                         <div class="col">
                                 <div class="fb-post" data-href="https://www.facebook.com/techlabsms/posts/567879243568382" data-show-text="true">
@@ -373,6 +427,7 @@
                                         <a href="https://www.facebook.com/techlabsms/posts/567879243568382">Sonntag, 25. März 2018</a>
                                     </blockquote>
                                 </div>
+                                <p></p>
                         </div>
                         <div class="col">
                                 <div class="fb-post" data-href="https://www.facebook.com/techlabsms/posts/569144803441826" data-show-text="true">
@@ -383,6 +438,7 @@
                                         <a href="https://www.facebook.com/techlabsms/posts/569144803441826">Mittwoch, 28. März 2018</a>
                                     </blockquote>
                                 </div>
+                                <p></p>
                         </div>
                     </div>
                 </div>
@@ -396,9 +452,6 @@
                                     <a href="/apply">Jetzt bewerben...</a><br>
                                     Bewerbungsschluss: 19. April 23:59
                                 </h4>
-                                <!-- <h4>
-                                    Ab dem 01. April hier bewerben.
-                                </h4> -->
                             </div>
                         </div>
                     </div>
@@ -487,29 +540,7 @@
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-113533725-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');
         </script>
-        <script>
-        window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-        "palette": {
-            "popup": {
-            "background": "#b6b6b6",
-            "text": "#ffffff"
-            },
-            "button": {
-            "background": "#666666",
-            "text": "#ffffff"
-            }
-        },
-        "theme": "classic",
-        "position": "top",
-        "static": true,
-        "content": {
-            "link": "Learn more...",
-            "href": "https://www.tech-labs.de/datenschutz.html"
-        }
-        })});
-        </script>
-
+        
         <!--page-specific:scripts-->
 
     </body>
