@@ -8,6 +8,9 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://www.tech-labs.de/$1 [R=301,L]
 
+
+Redirect 301 /apply http://bit.ly/DigitalShaper
+
 # main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?tld\.org$ [NC]
 RewriteCond %{HTTPS} off [OR]
