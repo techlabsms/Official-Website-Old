@@ -145,7 +145,55 @@ hr.short {
 /* end main */
 
 /* page:Home */
-#home-head {
+/*
+#home-hero {
+    background: linear-gradient(150deg, #FF0080, #FB1D5C, #ff4848, #f80759, #FF0080, #FF0080, #EC6EAD, #BC4E9C, #FB1D5C, #C6426E, #FF4848, #FF0080, #FB1D5C);
+    background-size: 400% 400%;
+	-webkit-animation: Gradient 100s ease infinite;
+	-moz-animation: Gradient 100s ease infinite;
+	animation: Gradient 100s ease infinite;
+    height: 90vh;
+    width: auto;
+    padding-bottom: 2em;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+*/
+#home-hero {
     background-image: url("../img/hero/hero-all4.png");
     background-position: right;
     background-repeat: no-repeat;
@@ -155,10 +203,10 @@ hr.short {
 }
 
 @media (max-width: 768px) {
-    #home-head {
+    #home-hero {
         background-image: url("../img/hero/hero-all4_editJH_bg.png");
     }
-    #home-head-fg.col-md-12 {
+    #home-hero-fg.col-md-12 {
         height: 300px;
         display: block;
         background-image: url("../img/hero/hero-all4_editJH_fg.png");
@@ -167,6 +215,17 @@ hr.short {
         background-size: contain;
         padding: 20%;
     }
+    /*
+    #home-hero-fg {
+        /*height: 300px;*/
+        /*display: block;
+        /*background-image: url("../img/hero/hero-all4_editJH_fg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;*/
+        /*padding: 20%;
+    }
+    */
 }
 
 .typed-headline {
@@ -202,7 +261,7 @@ hr.short {
 }
 
 #claimbox .image1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,.3)), url("../img/matt-antonioli-532383-unsplash.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,.3)), url("../img/mountain-vision_web.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,11 +284,10 @@ hr.short {
 .explainers {
     background: #fafafa;
 }
-
 /* end page:Home */
 
 /* page:Programm */
-#programm-head.cover.unpad--bottom.text-center {
+#programm-hero.cover.unpad--bottom.text-center {
     background-image: url("../img/hero/hero-B_v02.png");
     background-position: right;
     background-repeat: no-repeat;
@@ -239,10 +297,10 @@ hr.short {
 }
 
 @media (max-width: 768px) {
-    #programm-head.cover.unpad--bottom.text-center {
+    #programm-hero.cover.unpad--bottom.text-center {
         background-image: url("../img/hero/hero-B_v02_bg.png");
     }
-    #programm-head-fg.col-md-12 {
+    #programm-hero-fg.col-md-12 {
         height: 300px;
         display: block;
         background-image: url("../img/hero/hero-B_v02_fg.png");
@@ -264,8 +322,17 @@ hr.short {
 /* end page:Programm */
 
 /* page:Team */
+#team-hero {
+    background-image: url("../img/people/group_012_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
 .info-card {
     float: left;
+    /* delete float*/
     -webkit-perspective: 600px;
 }
 
@@ -274,6 +341,7 @@ hr.short {
     transition: -webkit-transform 0.5s;
     -webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
+    /*margin: 0 auto;*/
 }
 
 .front {
@@ -282,12 +350,14 @@ hr.short {
     z-index: 1;
     width: 200px;
     height: 200px;
+    /*margin: 0 auto;*/
 }
 
 .back {
     -webkit-transform: rotateY(-180deg);
     width: 200px;
     height: 200px;
+    /*margin: 0 auto;*/
 }
 
 .info-card:hover .back {
