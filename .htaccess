@@ -20,7 +20,6 @@ RewriteCond %{HTTP_HOST} ^((?!www\.)[^.]+)\.tld\.org$
 RewriteRule ^ http://%1.tld.org%{REQUEST_URI} [NE,L,R]
 
 #other redirects and rewrites
-Redirect 301 /apply https://tech-labs.de/join
 Redirect 301 /programm https://tech-labs.de/program
 
 RewriteEngine On
