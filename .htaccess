@@ -8,11 +8,6 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://www.tech-labs.de/$1 [R=301,L]
 
-Redirect 301 /apply https://tech-labs.de/join
-
-RewriteEngine on
-RewriteRule ^join/(.*) landing_join/$1
-
 # main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?tld\.org$ [NC]
 RewriteCond %{HTTPS} off [OR]
@@ -23,6 +18,15 @@ RewriteCond %{HTTP_HOST} !^local\.tld\.org$ [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^((?!www\.)[^.]+)\.tld\.org$
 RewriteRule ^ http://%1.tld.org%{REQUEST_URI} [NE,L,R]
+
+#other redirects and rewrites
+Redirect 301 /apply https://tech-labs.de/join
+Redirect 301 /programm https://tech-labs.de/program
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
 </IfModule>
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain
