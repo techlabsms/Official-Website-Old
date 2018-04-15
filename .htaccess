@@ -8,9 +8,10 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://www.tech-labs.de/$1 [R=301,L]
 
-Redirect 301 /apply https://bit.ly/DigitalShaper
+Redirect 301 /apply https://tech-labs.de/join
 
-Redirect 301 /join https://tech-labs.de/program.html
+RewriteEngine on
+RewriteRule ^join/(.*) landing_join/$1
 
 # main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?tld\.org$ [NC]
