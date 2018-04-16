@@ -1,3 +1,8 @@
+:root {
+    --pink: rgb(251,29,92);
+    --primary: rgb(251,29,92);
+}
+
 html,
 body {
     height: 100%;
@@ -88,5 +93,10 @@ body {
 .show > .btn-outline-primary.dropdown-toggle:focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(251, 29, 92, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(251, 29, 92, 0.5);
+}
+
+/* Text */
+.text-primary {
+    color: rgba(251, 29, 92) !important;
 }
 
