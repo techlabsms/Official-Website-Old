@@ -21,6 +21,7 @@ RewriteRule ^ http://%1.tld.org%{REQUEST_URI} [NE,L,R]
 
 #other redirects and rewrites
 Redirect 301 /programm https://tech-labs.de/program
+Redirect 301 /vote https://vote.tech-labs.de/
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
