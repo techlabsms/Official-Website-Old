@@ -198,8 +198,17 @@ hr.short {
 	}
 }
 */
-#home-hero {
+/*#home-hero {
     background-image: url("../img/hero/hero-all4.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7%;
+    padding-top:7%;
+}
+*/
+#home-hero {
+    background-image: url("../img/Meeting180516_1179_exp_web_duo1-w.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,6 +253,67 @@ hr.short {
     margin-top: 3%;
     margin-bottom: 3%
 }
+.btn__text2 {
+    color: rgb(251,29,92);
+    font-weight: 700;
+}
+#coverbtn2 {
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+.coverbtn2class {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  background: none;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+}
+
+.coverbtn2class:hover {
+  background: white;
+  text-decoration: none;
+  color: #4285F4;
+  font-weight: 700;
+}
+/*
+.coverbtn2class {
+    background: #2948ff;
+    background-image: -webkit-linear-gradient(top, #2948ff, #5773ff);
+    background-image: -moz-linear-gradient(top, #2948ff, #5773ff);
+    background-image: -ms-linear-gradient(top, #2948ff, #5773ff);
+    background-image: -o-linear-gradient(top, #2948ff, #5773ff);
+    background-image: linear-gradient(to bottom, #2948ff, #5773ff);
+    border-bottom: #fff;
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.coverbtn2class:hover {
+    background: #2948ff;
+    background-image: -webkit-linear-gradient(top, #2948ff, #8297ff);
+    background-image: -moz-linear-gradient(top, #2948ff, #8297ff);
+    background-image: -ms-linear-gradient(top, #2948ff, #8297ff);
+    background-image: -o-linear-gradient(top, #2948ff, #8297ff);
+    background-image: linear-gradient(to bottom, #2948ff, #8297ff);
+    text-decoration: none;
+}
+*/
+.coverbtn2text {
+    color: white;
+    font-weight: 700;
+}
 
 #mission, #activities {
     background: #fafafa;
@@ -253,10 +323,6 @@ hr.short {
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-}
-.btn__text2 {
-    color: rgb(251,29,92);
-    font-weight: 700;
 }
 
 /* ??? */
@@ -282,7 +348,7 @@ hr.short {
 /*#testimoni {}*/
  /*#peoplequotes.col-md-12 {}*/
 
- #testi {
+#testi {
     font-weight: 300;
 }
 
