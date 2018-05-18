@@ -209,7 +209,7 @@ hr.short {
 */
 #home-hero {
     background-image: url("../img/Meeting180516_1179_exp_web_duo1-w.jpg");
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 7%;
@@ -218,9 +218,19 @@ hr.short {
 
 @media (max-width: 768px) {
     #home-hero {
-        background-image: url("../img/hero/hero-all4_editJH_bg.png");
+        background-image: url("../img/Meeting180516_1179_exp_web_duo1-w.jpg");
+        background-position: center;
     }
     #home-hero-fg.col-md-12 {
+        height: 200px;
+        display: block;
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20%;
+    }
+    /*#home-hero-fg.col-md-12 {
         height: 300px;
         display: block;
         background-image: url("../img/hero/hero-all4_editJH_fg.png");
@@ -228,7 +238,7 @@ hr.short {
         background-repeat: no-repeat;
         background-size: contain;
         padding: 20%;
-    }
+    }*/
     /*
     #home-hero-fg {
         /*height: 300px;*/
@@ -278,6 +288,7 @@ hr.short {
   text-decoration: none;
   color: #4285F4;
   font-weight: 700;
+  cursor: pointer;
 }
 /*
 .coverbtn2class {
