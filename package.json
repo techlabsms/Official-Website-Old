@@ -5,7 +5,7 @@
   "main": "index.html",
   "author": "TechLabs e.V.",
   "license": "UNLICENSED",
-  "private": "TRUE",
+  "private": "true",
   "homepage": "https://tech-labs.de",
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
