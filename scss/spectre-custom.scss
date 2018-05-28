@@ -1,0 +1,36 @@
+/*Customized Spectre.css by
+* -
+* TechLabs
+* We. Build. Digital Shapers.
+* https://tech-labs.de
+*/
+
+// Define variables to override default ones
+$primary-color: #fb1d5c;
+
+// Import full Spectre source code
+//@import "node_modules/spectre.css/src/spectre";
+
+// Import selection
+@import "node_modules/spectre.css/src/variables";
+@import "node_modules/spectre.css/src/mixins";
+
+@import "node_modules/spectre.css/src/accordions";
+@import "node_modules/spectre.css/src/badges";
+@import "node_modules/spectre.css/src/breadcrumbs";
+@import "node_modules/spectre.css/src/cards";
+@import "node_modules/spectre.css/src/chips";
+
+@import "node_modules/spectre.css/src/popovers";
+@import "node_modules/spectre.css/src/steps";
+@import "node_modules/spectre.css/src/tiles";
+@import "node_modules/spectre.css/src/toasts";
+@import "node_modules/spectre.css/src/tooltips";
+
+@import "node_modules/spectre.css/src/animations";
+@import "node_modules/spectre.css/src/utilities";
+
+@import "node_modules/spectre.css/src/meters";
+@import "node_modules/spectre.css/src/off-canvas";
+@import "node_modules/spectre.css/src/progress";
+@import "node_modules/spectre.css/src/timelines";

@@ -1,0 +1,191 @@
+/*Customized Bootstrap by
+* -
+* TechLabs
+* We. Build. Digital Shapers.
+* https://tech-labs.de
+*/
+
+// Colors
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$pink-corporate: #fb1d5c;
+$cyan-soft: #62d0e0;
+$purple-soft: #5755d9;
+$yellow-soft: #ffb700;
+$green-soft: #32b643;
+$orange-soft:  #e85600;
+
+$colors: ();
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink-b4":    $pink,
+  "pink":       $pink-corporate,
+  "red":        $red,
+  "orange-b4":  $orange,
+  "orange":     $orange-soft,
+  "yellow-b4":  $yellow,
+  "yellow":     $yellow-soft,
+  "green-b4":   $green,
+  "green":      $green-soft,
+  "teal":       $teal,
+  "cyan-b4":    $cyan,
+  "cyan":       $cyan-soft,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $pink-corporate;
+$primary-dark:  darken($primary, 3%);
+$primary-light: lighten($primary, 3%);
+$secondary:     $gray-600 !default;
+$tertiary:      lighten($primary, 37.5%);
+$tertiary-dark: darken($tertiary, 3%);
+$tertiary-light:lighten($tertiary, 3%);
+$success:       $green-soft;
+$info:          $cyan-soft;
+$warning:       $yellow-soft;
+$danger:        $orange-soft;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Sizes .h-* & .w-*
+$sizes: (
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  25: 25%,
+  33: 33%,
+  50: 50%,
+  67: 67%,
+  75: 75%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
+  95: 95%,
+  100: 100%,
+  auto: auto
+);
+
+// Font settings
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, "Segoe UI Mono", "Roboto Mono", Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-stack-displayheadings: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    //$font-family-ibm-sans: IBM?
+    //$font-family-base: ();
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+
+// Headings h*
+    //$headings-font-family: ($font-stack-displayheadings); => all h1, h2, ..
+
+// Headings display
+$display5-size:               2.5rem;
+$display6-size:               2rem;
+
+$display5-weight: 300;
+$display6-weight: 300;
+
+$headings-line-height:        1.2 !default;
+$display-line-height:         $headings-line-height !default;
+
+.display-5 {
+    font-size: $display5-size;
+    font-weight: $display5-weight;
+    line-height: $display-line-height;
+}
+.display-6 {
+    font-size: $display6-size;
+    font-weight: $display6-weight;
+    line-height: $display-line-height;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: ($font-stack-displayheadings);
+}
+
+// Carousel structure
+$carousel-vh-xl: 100vh;
+$carousel-vh-lg: 80vh;
+$carousel-vh-md: 50vh;
+.home {
+    .carousel-container {
+        height: $carousel-vh-lg;
+    
+        #homecarousel {
+            height: 100%;
+    
+            .carousel-indicators {
+                bottom: 10%;
+                // Carousel round indicators
+                //?? How to put this in a separate class for global re-use??
+                li {
+                    border-radius: 50%;
+                    width: 6px;
+                    height: 6px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+            }
+            .carousel-inner {
+                height: 100%;
+            
+                .carousel-item {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+// #Custom styles
+// Navbar height limit
+/*
+.navbar-limit {
+    max-height: 15vh
+}
+*/
+// Header-specific sizes
+/*header {
+    .navbar-nav {
+        font-size: $font-size-sm;
+        font-weight: normal;
+    }
+    .nav-item {
+        i.fab {
+            font-size: $font-size-sm;
+        }
+    }
+}*/
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";

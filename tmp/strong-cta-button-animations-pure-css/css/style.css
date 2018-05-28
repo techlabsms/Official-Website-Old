@@ -1,0 +1,136 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald|Open+Sans';
+
+html, body {
+  background-color: #ecf0f1;
+}
+
+/* centers the button in the DOM*/
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* gives btn width and height */
+a {
+  text-decoration: none; /* strip natual underlines */
+  width: 271px;
+  line-height: 102px;
+  height: 102px;
+  margin: 3.6em 1.6em 0;
+}
+
+/**  colors and transitions back to normal
+  *  hex colors from flatuicolors.com   
+  **/
+
+.btn-1 {
+    background: #2980b9; /* BELIZE HOLE */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-1:before, .btn-1:focus, .btn-1:hover {
+    background: #3498db; /* peter river */
+}
+
+.btn-2 {
+    background: #27ae60; /* nephritis */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-2:before, .btn-2:focus, .btn-2:hover {
+    background: #2ecc71; /* emerald */
+}
+
+.btn-3 {
+    background: #c0392b; /* pomegranate */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-3:before, .btn-3:focus, .btn-3:hover {
+    background: #e74c3c; /* alizarin */
+}
+
+.btn-4 {
+    background: #8e44ad; /* wisteria */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-4:before, .btn-4:focus, .btn-4:hover {
+    background: #9b59b6; /* amethyst */
+}
+.btn-5 {
+    background: #e67e22; /* carrot */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-5:before, .btn-3:focus, .btn-3:hover {
+    background: #f39c12; /* orange */
+}
+.btn-6 {
+    background: #16a085; /* green sea */
+    -webkit-transition: background 225ms ease!important;
+    -moz-transition: background 225ms ease!important;
+    transition: background 225ms ease!important;
+}
+
+.btn-6:before, .btn-3:focus, .btn-3:hover {
+    background: #1abc9c; /* turquoise */
+}
+/* base btn styling */
+.btn-base {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 225ms ease;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    line-height: 102px;
+}
+
+/* places copy on top */
+.btn-cta span {
+    z-index: 8;
+    position: relative;
+}
+
+/** definition and placement of 
+  * starting size before element */
+
+.btn-cta:before {
+    content: "";
+    display: block;
+    width: 86%;
+    height: 65%;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    -moz-transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    transition: all 400ms cubic-bezier(.32,1.25,.1,1.47);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/* grow to sizing for before element */
+.btn-cta:focus:before, .btn-cta:hover:before {
+    height: 105%;
+    width: 105%;
+}

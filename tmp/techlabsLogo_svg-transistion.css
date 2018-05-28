@@ -1,0 +1,12 @@
+#headerlogo svg .logocanvas{
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 100ms;
+    -webkit-transition-timing-function: ease-in-out;}
+#headerlogo svg .logocolor1, #headerlogo svg .logocolor2{
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 100ms;
+    -webkit-transition-timing-function: ease-in-out;}
+#headerlogo svg:hover .logocanvas {opacity: 1.0; fill:#FB1D5C;}
+#headerlogo svg:hover .logocolor1, #headerlogo svg:hover .logocolor2  {fill:#FFFFFF;}

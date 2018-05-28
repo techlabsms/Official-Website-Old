@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,400italic|Open+Sans:400,700);
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: #eee;
+  color: #545b61;
+}
+
+.headroom {
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: #40474d;
+  padding-left: 4%;
+  padding-right: 4%;
+  transition: all .25s ease-in-out;
+  backface-visibility: hidden;
+  z-index: 100;
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  
+  h1 {
+    color: #eee;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    float: left;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -2px;
+  }
+  
+  nav {
+    float: right;
+    display: inline-block;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -2px;
+    
+    a {
+      color: #00c1bb;
+      text-decoration: none;
+    }
+  }
+  
+  &--pinned {
+      transform: translateY(0%);
+  }
+  &--unpinned {
+      transform: translateY(-100%);
+  }
+  
+}
+
+main {
+  min-height: 60em;
+}
+
+.instructions {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  padding-top: 8em;
+}

@@ -1,0 +1,15 @@
+/*Customized Hamburgers.css by
+* -
+* TechLabs
+* We. Build. Digital Shapers.
+* https://tech-labs.de
+*/
+
+// Define variables to override default ones
+/*$hamburgers-padding-x: 20px;
+$hamburgers-padding-y: 15px;
+$hamburger-layer-width: 80px;
+$hamburger-types     : (collapse);
+*/
+// Import full Hamburgers source code
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers";

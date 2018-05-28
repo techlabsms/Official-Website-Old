@@ -1,0 +1,18 @@
+AddEncoding gzip .jsgz .cssgz
+AddType application/x-javascript .jsgz
+AddType text/css .cssgz
+
+RewriteEngine on 
+# If client accepts compressed files 
+RewriteCond %{HTTP:Accept-Encoding} gzip 
+# and if compressed file exists 
+RewriteCond %{REQUEST_FILENAME}gz -f 
+# send .min.cssgz and .min.cssgz instead of .css and .js
+RewriteRule ^(.+)\.(min.css|min.js)$ $1.$2gz [L]
+
+
+
+
+
+For some reason file_name.min.css.gz is not working, so solution with file_name.min.cssgz is working great. I hope that this will help someone.
+

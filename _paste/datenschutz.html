@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+
+  <!--standard:head-->
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="older-iPhone.png"> <!--120px-->
+    <link rel="apple-touch-icon" sizes="180x180" href="iPhone-6-Plus.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="iPad-Retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="iPad-Pro.png">
+    <link rel="shortcut icon" sizes="196x196" href="favicon-196.png">
+
+    <meta charset="utf-8">
+    <title>TechLabs - We Build. Digital. Shapers. - Datenschutz</title>
+    <meta name="description" content="We Build. Digital. Shapers." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="max-age=432000">
+
+    <!--standard:styles inline-->
+            <!-- fill in critical styles (loaded first)-->
+
+    <!--standard:styles linked-->
+            <link href="css/stack-interface.min.css" rel="stylesheet" type="text/css" media="all">
+            <link href="css/socicon.min.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="css/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
+                <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />-->
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link href="css/theme-cedar.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+                <!--<link href="css/cookieconsent.css" rel="stylesheet" type="text/css" media="all" />-->
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet" />
+
+        <!--standard:scripts linked-->
+                <!--<script async src="js/jquery-3.2.1.js"></script>-->
+            <script async src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <!--<script async src="js/popper.js"></script>-->
+            <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <!--<script async src="js/bootstrap.js"></script>-->
+            <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <!--<script async src="js/cookieconsent.js"></script>-->
+            <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+        <!--standard:scripts inline-->
+            <!-- Facebook Pixel Code -->
+            <script>
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '174611373186909');
+                fbq('track', 'PageView');
+            </script>
+            <noscript>
+                <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=174611373186909&ev=PageView&noscript=1"/>
+            </noscript>
+
+            <!-- Cookie Consent -->
+            <script>
+            window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                "background": "#b6b6b6",
+                "text": "#ffffff"
+                },
+                "button": {
+                "background": "#666666",
+                "text": "#ffffff"
+                }
+            },
+            "theme": "classic",
+            "position": "top",
+            "static": true,
+            "type": "opt-out",
+            "content": {
+                "href": "https://www.tech-labs.de/datenschutz.html"
+            },
+
+            onInitialise: function (status) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+            }
+            },
+            
+            onStatusChange: function(status, chosenBefore) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+            }
+            if (type == 'opt-out' && !didConsent) {
+                // disable cookies
+            }
+            },
+            
+            onRevokeChoice: function() {
+            var type = this.options.type;
+            if (type == 'opt-in') {
+                // disable cookies
+            }
+            if (type == 'opt-out') {
+                // enable cookies
+            }
+            },
+            })});
+            </script>
+
+<!--page-specific:head-->
+
+</head>
+
+    <body data-smooth-scroll-offset="77">
+
+    <!-- Facebook Pixel -->
+       <script>
+            fbq('track', 'ViewContent');
+        </script>
+
+     <!--standard:navigation-->
+
+     <div class="nav-container">
+            <div class="via-1519749956547" via="via-1519749956547" vio="Home">
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                <a href="index.html" target="_self">
+                                    <img class="logo logo-dark" alt="logo" src="img/logo/sketchlogo.png">
+                                    <img class="logo logo-light" alt="logo" src="img/logo/sketchlogo.png">
+                                </a>
+                            </div>
+                            <div class="col-9 col-md-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm">
+                                    <i class="icon icon--sm stack-interface stack-menu"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="index.html" target="_self">
+                                        <img class="logo logo-dark" alt="logo2" src="img/logo/sketchlogo.png">
+                                        <img class="logo logo-light" alt="logo" src="img/logo/sketchlogo.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li> <a href="index.html">Home</a> </li>
+                                        <li> <a href="program.html">Programm</a> </li>
+                                        <li> <a href="team.html">Team</a> </li>
+                                        <li> <a href="kontakt.html">Kontakt</a> </li>
+                                    </ul>
+                                </div>
+                                <!--<div class="bar__module">
+                                     <a class="btn btn--sm btn--primary type--uppercase" href="/apply">
+                                         <span class="btn__text">Bewerben</span>
+                                     </a>
+                                 </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div><!--nav-container-->
+
+        <!--page-specific:content-->
+
+        <div class="main-container">
+
+          <section>
+              <div class="container">
+                <h2>Datenschutzerklärung</h2>
+                <p>Die Nutzung unserer Seite ist ohne  eine Angabe von personenbezogenen Daten möglich. Für die Nutzung einzelner  Services unserer Seite können sich hierfür abweichende Regelungen ergeben, die in  diesem Falle nachstehend gesondert erläutert werden. Ihre personenbezogenen  Daten (z.B. Name, Anschrift, E-Mail, Telefonnummer, u.ä.) werden von uns nur  gemäß den Bestimmungen des deutschen Datenschutzrechts verarbeitet. Daten sind dann  personenbezogen, wenn sie eindeutig einer bestimmten natürlichen Person  zugeordnet werden können. Die rechtlichen Grundlagen des Datenschutzes finden  Sie im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG). Nachstehende  Regelungen informieren Sie insoweit über die Art, den Umfang und Zweck der  Erhebung, die Nutzung und die Verarbeitung von personenbezogenen Daten durch  den Anbieter</p>
+                <p><strong>TechLabs e.V. i.Gr.</strong><br>
+                <!--<p><strong>[Telefonnummer des Betreibers]</strong></p>-->
+                <strong>info@tech-labs.de</strong></p>
+                <p>Wir weisen darauf hin, dass die  internetbasierte Datenübertragung Sicherheitslücken aufweist, ein lückenloser  Schutz vor Zugriffen durch Dritte somit unmöglich ist.</p>
+
+                <h4>Cookies</h4>
+                <p>Wir  verwenden auf unserer Seite sog. Cookies zum Wiedererkennen mehrfacher Nutzung unseres  Angebots, durch denselben Nutzer/Internetanschlussinhaber. Cookies sind kleine  Textdateien, die Ihr Internet-Browser auf Ihrem Rechner ablegt und speichert.  Sie dienen dazu, unseren Internetauftritt und unsere Angebote zu optimieren. Es  handelt sich dabei zumeist um sog. "Session-Cookies", die nach dem  Ende Ihres Besuches wieder gelöscht werden.<br>
+                    Teilweise  geben diese Cookies jedoch Informationen ab, um Sie automatisch wieder zu  erkennen. Diese Wiedererkennung erfolgt aufgrund der in den Cookies  gespeicherten IP-Adresse. Die so erlangten Informationen dienen dazu, unsere  Angebote zu optimieren und Ihnen einen leichteren Zugang auf unsere Seite zu  ermöglichen.</p>
+                    Sie können  die Installation der Cookies durch eine entsprechende Einstellung Ihres  Browsers verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall  gegebenenfalls nicht sämtliche Funktionen unserer Website vollumfänglich nutzen  können.<!--<br>
+                    Sie können den Einsatz von Cookies hiermit auch deaktivieren. <a onclick="alert('Cookies wurden deaktiviert.');" href="javascript:function()">Cookies deaktivieren</a>-->
+                </p>
+
+                <h4>Newsletter</h4>
+                <p>Wir  bieten Ihnen auf unserer Seite die Möglichkeit, unseren Newsletter zu  abonnieren. Mit diesem Newsletter informieren wir in regelmäßigen Abständen  über unsere Angebote. Um unseren Newsletter empfangen zu können, benötigen Sie  eine gültige E-Mailadresse. Die von Ihnen eingetragene E-Mail-Adresse werden wir  dahingehend überprüfen, ob Sie tatsächlich der Inhaber der angegebenen  E-Mail-Adresse sind bzw. deren Inhaber den Empfang des Newsletters autorisiert  ist. Mit Ihrer Anmeldung zu unserem Newsletter werden wir Ihre IP-Adresse und  das Datum sowie die Uhrzeit Ihrer Anmeldung speichern. Dies dient in dem Fall,  dass ein Dritter Ihre E-Mail-Adresse missbraucht und ohne Ihr Wissen unseren  Newsletter abonniert, als Absicherung unsererseits. Weitere Daten werden  unsererseits nicht erhoben. Die so erhobenen Daten werden ausschließlich für  den Bezug unseres Newsletters verwendet. Eine Weitergabe an Dritte erfolgt  nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch  andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht. Das  Abonnement dieses Newsletters können Sie jederzeit kündigen. Einzelheiten  hierzu können Sie der Bestätigungsmail sowie jedem einzelnen Newsletter  entnehmen.</p>
+
+                <h4>Einsatz  von Google-Analytics mit Anonymisierungsfunktion</h4>
+                <p>Wir setzen auf unserer Seite Google-Analytics, einen Webanalysedienst der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend „Google“ ein. Google-Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und hierdurch eine Analyse der Benutzung der Website durch Sie ermöglichen.</p>
+                <p>Die durch diese Cookies erzeugten Informationen, beispielsweise Zeit, Ort und Häufigkeit Ihres Webseiten-Besuchs einschließlich Ihrer IP-Adresse, werden an Google in den USA übertragen und dort gespeichert.</p>
+                <p>Wir verwenden auf unserer Website Google-Analytics mit einer IP-Anonymisierungsfunktion. Ihre IP-Adresse wird in diesem Fall von Google schon innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt und dadurch anonymisiert.</p>
+                <p>Google wird diese Informationen benutzen, um Ihre Nutzung unserer Seite auszuwerten, um Reports über die Websiteaktivitäten für uns zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten.</p>
+                <p>Google wird, nach eigenen Angaben, in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen unserer Website vollumfänglich nutzen können.</p>
+                <p>Des Weiteren bietet Google für die gängigsten Browser eine Deaktivierungsoption an, welche Ihnen mehr Kontrolle darüber gibt, welche Daten von Google erfasst und verarbeitet werden. Sollte Sie diese Option aktivieren, werden keine Informationen zum Website-Besuch an Google Analytics übermittelt. Die Aktivierung verhindert aber nicht, dass Informationen an uns oder an andere von uns gegebenenfalls eingesetzte Webanalyse-Services übermittelt werden. Weitere Informationen zu der von Google bereitgestellten Deaktivierungsoption sowie zu der Aktivierung dieser Option, erhalten Sie über nachfolgenden Link: <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="nofollow">https://tools.google.com/dlpage/gaoptout?hl=de</a></p>
+                <p>Sie können außerdem auch auf unserer Seite ein Opt-out-Cookie setzen: <a onclick="alert('Google Analytics wurde deaktiviert.');" href="javascript:gaOptout()">Google Analytics deaktivieren</a>
+
+                <h4>Einsatz von Google-Maps</h4>
+                <p>Wir setzen auf unserer Seite die Komponente "Google Maps" der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend „Google“, ein.</p>
+                <p>Bei jedem einzelnen Aufruf der Komponente "Google Maps" wird von Google ein Cookie gesetzt, um bei der Anzeige der Seite, auf der die Komponente "Google Maps" integriert ist, Nutzereinstellungen und -daten zu verarbeiten. Dieses Cookie wird im Regelfall nicht durch das Schließen des Browsers gelöscht, sondern läuft nach einer bestimmten Zeit ab, soweit es nicht von Ihnen zuvor manuell gelöscht wird.</p>
+                <p>Wenn Sie mit dieser Verarbeitung Ihrer Daten nicht einverstanden sind, so besteht die Möglichkeit, den Service von "Google Maps" zu deaktivieren und auf diesem Weg die Übertragung von Daten an Google zu verhindern. Dazu müssen Sie die Java-Script-Funktion in Ihrem Browser deaktivieren. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall die "Google Maps" nicht oder nur eingeschränkt nutzen können.</p>
+                <p>Die Nutzung von "Google Maps" und der über "Google Maps" erlangten Informationen erfolgt gemäß den&nbsp;Google-Nutzungsbedingungen&nbsp;
+                <a href="http://www.google.de/intl/de/policies/terms/regional.html" target="_blank" rel="nofollow">http://www.google.de/intl/de/policies/terms/regional.html</a></p>
+                <p>sowie der zusätzlichen&nbsp;Geschäftsbedingungen für „Google Maps“<br>
+                <a href="https://www.google.com/intl/de_de/help/terms_maps.html" target="_blank" rel="nofollow">https://www.google.com/intl/de_de/help/terms_maps.html</a>.</p>
+
+                <h3>Auskunft/Widerruf/Löschung</h3>
+                <p>Sie können  sich aufgrund des Bundesdatenschutzgesetzes bei Fragen zur Erhebung, Verarbeitung  oder Nutzung Ihrer personenbezogenen Daten und deren Berichtigung, Sperrung,  Löschung oder einem Widerruf einer erteilten Einwilligung unentgeltlich an uns  wenden. Wir weisen darauf hin, dass Ihnen ein Recht auf Berichtigung falscher  Daten oder Löschung personenbezogener Daten zusteht, sollte diesem Anspruch  keine gesetzliche Aufbewahrungspflicht entgegenstehen.</p>
+                <p>
+                <a target="_blank" href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html">Muster-Datenschutzerklärung</a> der <a target="_blank" href="https://www.ratgeberrecht.eu/">Anwaltskanzlei Weiß &amp; Partner</a></p>
+
+              </div>
+            </section>
+
+                <!--standard:footer-->
+
+                <footer class="footer-6 unpad--bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div id="footer-about" class="col-sm-6 col-md-4 text-center-xs text-left-md">
+                                <h6 class="type--uppercase">Made with&nbsp;♥&nbsp;<i></i>in Münster</h6>
+                                <p>
+                                  <a href="impressum.html" target="_self">Impressum</a><br>
+                                  <a href="datenschutz.html" target="_self">Datenschutzerklärung</a>
+                                </p>
+                            </div>
+                            <div id="footer-slogan" class="col-sm-6 col-md-4">
+                              <h6 class="type--uppercase text-center-xs text-left-md">We Build. Digital. Shapers.</h6>
+                            </div>
+                            <!--
+                            <div id="footer-recent" class="col-sm-6 col-md-3">
+                                <h6 class="type--uppercase">Recent Updates</h6>
+                                <div class="tweets-feed tweets-feed-2" data-feed-name="MSTechLabs" data-amount="2"></div>
+                            </div>
+                            <div id="footer-instagram" class="col-sm-6 col-md-3">
+                                <h6 class="type--uppercase">Instagram</h6>
+                                <div class="instafeed instafeed--gapless" data-amount="6" data-grid="3" data-user-name="mstechlabs" data-client-id="df2acaa3ced74f93963a0609c0b54fa1" data-access-token="7189148876.1677ed0.064848d9e4204a72aeb3653ab3d645c6"></div>
+                            </div>
+                          -->
+                            <div id="footer-newsletter" class="col-sm-12 col-md-4">
+                                <h6 class="type--uppercase text-center-xs text-left-md">Newsletter</h6>
+                                <!-- Begin MailChimp Signup Form -->
+                                  <div id="mc_embed_signup">
+                                  <form action="https://tech-labs.us17.list-manage.com/subscribe/post?u=849e3cba6e0cffb4e2fbc1376&amp;id=f63b2c1d67" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-Mail Adresse" required>
+                                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_849e3cba6e0cffb4e2fbc1376_f63b2c1d67" tabindex="-1" value=""></div>
+                                      <div class="clear">
+                                        <button type="submit" class="btn btn--primary type--uppercase">Subscribe</button>
+                                      </div>
+                                  </form>
+                                  </div>
+
+                                  <!--
+                                <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Perfekt!  In deinem Postfach findest du jetzt eine Bestätigungsmail." data-error="Bitte gib eine Emailadresse an."> <input class="validate-required validate-email" type="text" name="EMAIL" placeholder="Email Addresse"> <button type="submit" class="btn btn--primary type--uppercase">Subscribe</button>
+                                    <div style="position: absolute; left: -5000px" aria-hidden="true"> <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value=""> </div>
+                                </form>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__lower text-center-xs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                  <span class="type--fine-print">© <span class="update-year">2018</span> TechLabs e.V.&nbsp; —&nbsp; All Rights Reserved</span>
+                                </div>
+                                <div class="col-sm-12 col-md-4 text-center-xs text-left-sm">
+                                    <ul class="social-list list-inline">
+                                        <li><a href="https://www.facebook.com/techlabsms"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
+                                        <li><a href="https://instagram.com/mstechlabs" target="_self"><i class="socicon icon socicon-instagram icon--xs"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/techlabs-ev/"><i class="socicon icon socicon-linkedin icon--xs"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!--<div class="col-sm-6 col-md-4">
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                </footer> <!--standard:footer-->
+
+            </div> <!--page-specific:content-->
+
+            <!--standard:scripts-->
+            <script src="js/jquery.fittext.min.js"></script>
+            <script src="js/parallax.js"></script>
+            <script src="js/typed.min.js"></script>
+            <script src="js/smooth-scroll.min.js"></script>
+            <script src="js/flickity.min.js"></script>
+            <script src="js/spectragram.min.js"></script>
+            <script async src="js/scripts.js"></script>
+            <script src="js/googleoptout.min.js"></script>
+            <script async src="https://embed.small.chat/T6QB33X0TG9834KWU9.js"></script>
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-113533725-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');
+            </script>
+
+            <!--page-specific:scripts-->
+
+    </body>
+
+</html>

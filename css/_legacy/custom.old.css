@@ -1,0 +1,190 @@
+.color--primary {
+  color: rgb(251,29,92) !important;
+}
+
+a {
+  color: rgb(251,29,92);
+}
+
+.color--typing {
+    color: #fff;
+}
+
+.btn--primary,
+.btn--primary:visited {
+  background: rgb(251,29,92);
+  border-color: rgb(251,29,92);
+}
+
+.btn--primary-1, .btn--primary-1:visited {
+    background: rgb(251,29,92);
+    border-color: rgb(251,29,92);
+}
+
+hr.short {
+    width: 2.78571429em;
+    border-color: rgb(251,29,92);
+}
+
+.tracklogo {
+    width: 50%;
+    padding-top: 1em;
+}
+
+.typed-headline {
+    text-align: left;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(251,29,92);
+    text-align: center;
+}
+
+.h2 {
+    font-size: 230%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.h2.inline-block.typed-text.typed-text--cursor.color--typing {
+    font-size: 320%;
+}
+@media (max-width: 370px) {
+  .h2.inline-block.typed-text.typed-text--cursor.color--typing {
+      font-size: 200%;
+  }
+}
+
+.cover.unpad--bottom.text-center {
+    background-image: url("../img/hero/hero-all4.png");
+    /**/
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7%;
+    padding-top:7%;
+}
+
+/*
+@media (max-width: 370px) {
+  .cover.unpad--bottom.text-center {
+      background-image: none;
+  }
+}
+*/
+
+.h4 inline-block padding top {
+    padding-top: 10%;
+}
+
+.btn--second,
+.btn--second:visited {
+  background: #fff;
+  border-color: #fff;
+}
+
+#coverbtn {
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+h5 {
+    color: rgb(251,29,92);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.socicon {
+    color:#666666;
+}
+
+.btn__text2 {
+    color: rgb(251,29,92);
+    font-weight: 700;
+}
+
+.coverp {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.trackinfo {
+    text-align: left;
+    font-size: 80%;
+}
+
+h4   {
+    color: rgb(251,29,92);
+    font-weight:400;
+}
+
+#testi {
+    font-weight: 300;
+}
+
+.impressum {
+    font-weight: 400;
+    color: black;
+}
+
+.info-card {
+    float: left;
+    -webkit-perspective: 600px;
+}
+
+.front, .back {
+    background: #FFF;
+    transition: -webkit-transform 0.5s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+.front {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.back {
+    -webkit-transform: rotateY(-180deg);
+    overflow: scroll;
+}
+
+.info-card:hover .back {
+    -webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+    -webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+.card-background {
+    background: rgb(251,29,92);
+    height: 200px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+.team-text {
+    font-size: 80%;
+}
+
+section.testimoni {
+    padding-top: 3.33em !important;
+}
+
+.mission {
+    background: #fafafa;
+    padding: 3.33em;
+}

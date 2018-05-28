@@ -1,0 +1,15 @@
+.container {
+    background:red;
+    #id &{
+       background:blue;
+    }
+}
+
+.container {
+    background:red;
+    &.desc{
+       background:blue;
+    }
+}
+
+
