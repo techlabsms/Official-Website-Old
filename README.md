@@ -70,7 +70,7 @@ https://docs.npmjs.com/cli/install*
 
 ### **1. Download the repository**
 Clone the development branch.  
-``$ git clone https://github.com/davidmidd/techlabs_website.git``
+``$ git clone https://github.com/davidmidd/techlabs_website.git -b relaunch``
 
 Node modules / npm packages and other files and directories specified in ``.gitignore`` are not synced to GitHub. The will be installed in the next step.
 
@@ -184,7 +184,8 @@ check image-minify
 check AMP  
 check Integration with FB Feed,Insta-Feed, Medium <> Blog-Page   
 check YouTube Live Notice
-check 
+check critical,  
+check html minify
 
 finish readme section 5 and following
 
