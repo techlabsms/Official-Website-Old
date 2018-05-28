@@ -1,0 +1,10 @@
+- Wichtige Ankündigungen aus der SLACK API ziehen und dort nochmal anzeigen lassen
+- Upcoming Calendar für Mitglieder
+- Management Calendar für uns
+- TL Locations über Google Maps API (harbour Side, medi campus)
+- Tracking/View über die Member aufbauen (mit Github Profil, linkedin etc.) - könnten dazu die Profile unserer Member crawlen und unsere Kompetenz dadurch visualisieren im Dashboard)
+- Feed von interessanten Artikeln zu den jeweiligen Tracks (medium Artikel, etc.)
+
+-> TechLabs Dashboard: z.B. Measurements der Github Contributions der Member in den letzten Monaten, Facebook/ Google Analytics Measurements, Feed
+
++ Slack Analytik da anzeigen lassen
