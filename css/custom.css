@@ -274,20 +274,19 @@ hr.short {
 .coverbtn2class {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 10px;
-  color: #ffffff;
-  font-size: 16px;
+  border-radius: 5px;
+  color: #e2e2e2;
+  font-size: 12px;
   background: none;
   padding: 10px 20px 10px 20px;
-  border: solid #ffffff 3px;
+  border: solid #e2e2e2 1px;
   text-decoration: none;
 }
 
 .coverbtn2class:hover {
   background: white;
   text-decoration: none;
-  color: #4285F4;
-  font-weight: 700;
+  color: #fb1d5c;
   cursor: pointer;
 }
 /*
