@@ -8,4 +8,5 @@ Disallow: /img/divers
 Disallow: /impressum.html
 Disallow: /apply.html
 Disallow: /join.html
+Disallow: /docs/fmnrw
 Sitemap: https://tech-labs.de/sitemap.xml

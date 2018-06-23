@@ -1,0 +1,122 @@
+
+/*** Print *******************************************************************/
+body{
+	text-align:		left;
+	margin-left:	30px;
+}
+
+div.header{
+	display:		none;
+}
+
+div.container{
+	width:			550px;
+	margin:			0px;
+}
+
+div.menu{
+	display:		none;
+}
+
+div.content{
+	width:			550px;
+	margin-left:	0px;
+}
+
+div.navigator{
+	display:		none;
+}
+
+h1.manual_models{
+	margin-top:		0px;
+}
+
+div.manual_title{
+	width:			550px;
+}
+
+div.footer{
+	width:			550px;
+}
+
+div.return_to_top{
+	display:		none;
+}
+
+div.copy_right{
+	width:			550px;
+}
+
+/*** steps *********************************************************/
+ol.step_h2 li{
+	padding-left:	24px;
+	text-indent:	-24px;
+}
+li p img{
+	vertical-align:	middle;
+}
+div.step_h2_body{
+	margin-left:	24px;
+}
+
+ol.step_sub_h2{
+	margin-left:	21px;
+}
+ol.step_sub_h2 li{
+	padding-left:	24px;
+	text-indent:	-24px;
+}
+div.step_sub_h2_body{
+	margin-left:	45px;
+}
+
+ol.sub_h2 li{
+	padding-left:	24px;
+	text-indent:	-24px;
+}
+div.sub_h2_body{
+	margin-left:	24px;
+}
+
+/*** lists *********************************************************/
+div.link_list{
+	padding-left:	0px;
+	background-image:	url("");
+}
+ul.sub_bull{
+	padding-left:	24px;
+	text-indent:	-24px;
+	background-image:	url("");
+}
+ul.sub_hyph{
+	padding-left:	44px;
+	text-indent:	-23px;
+	background-image:	url("");
+}
+ul.step_bull{
+	padding-left:	0px;
+	margin-left:	49px;
+	text-indent:	-23px;
+	background-image:	url("");
+}
+
+/*** TS ************************************************************/
+ul.ts_a{
+	padding-left:		24px;
+	text-indent:		-24px;
+	background-image:	url("");
+}
+ul.ts_arrow{
+	margin-left:	0px;
+	padding-left:	42px;
+	text-indent:	-23px;
+	background-image:	url("");
+}
+
+/*** tables ********************************************************/
+table ul.table_b_bull{
+	padding-left:	0px;
+	margin-left:	24px;
+	text-indent:	-24px;
+	background-image:	url("");
+}

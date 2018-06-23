@@ -1,0 +1,129 @@
+/* CSS-STYLE FÜR SUCHMASCHINE : suchstyle.css */
+
+.lnkziel:link { 
+	FONT:				14px Verdana, Arial, Helvetica;
+	COLOR:				#1668B1;
+	font-weight:		bold;
+	TEXT-DECORATION:	none;/*underline*/
+}
+
+.lnkziel:visited {
+	FONT:				14px Verdana, Arial, Helvetica;
+	COLOR:				#C1C3C4;
+	font-weight:		bold;
+	TEXT-DECORATION:	underline;
+}
+
+.lnkziel:hover {
+	FONT:				14px Verdana, Arial, Helvetica;
+	COLOR:				#FFFFFF;
+	font-weight:		bold;
+	BACKGROUND-COLOR:	#1668B1;
+	TEXT-DECORATION:	none;
+}
+.lnkziel:active{
+	FONT:				14px Verdana, Arial, Helvetica;
+	COLOR:				#CC0000;
+	font-weight:		bold;
+	BACKGROUND-COLOR:	#FFFFFF;
+	TEXT-DECORATION:	none
+}
+
+ol {
+	padding-left:		30px;
+	padding-bottom:		15px;
+}
+
+li {
+	padding-top:		10px;
+	padding-left:		5px;
+	COLOR:				#C1C3C4;
+}
+
+.kap{
+	FONT:				12px Verdana, Arial, Helvetica;
+	COLOR:				#BBBABA;
+	font-weight:		;
+	padding-bottom:		3px;
+	line-height:		15px;
+}
+
+.bei_text{
+	font-family:	Arial,Verdana,Helvetica;
+	margin-top:		0px;
+	margin-bottom:	4px;
+	color:			#000000;
+	font-size:		110%;
+	font-weight:	normal;
+	line-height:	120%;
+}
+
+.rahmen{
+	font-family:	Arial;
+	font-size:		150%;
+	color:			#1668B1;/**/
+	margin-left:	4.5%;
+}
+.rahmen_u{
+	font-family:	Arial;
+	font-size:		90%;
+	color:			#1668B1;/**/
+	margin-left:	3.5%;
+}
+
+.fail{
+	font-family:	Arial,Verdana,Helvetica;
+	color:			#DB8F21;
+	font-size:		110%;
+	font-weight:	normal;
+	line-height:	120%;
+	padding-left:	3.5%;
+
+}
+/*TEST*/
+div.search_buttonss,
+div.search_buttonss_mouseover{
+	float:			left;
+	margin-left:	-60px;
+}
+
+div.search_buttonss button{
+	color:			#ffffff;
+	font-size:		23px;
+	border:			1px solid #ffffff;
+	padding:		8px 8px 8px 8px;
+	margin-top:		-10px;
+	background-color:		#05549A;
+}
+
+div.search_button_mouseover button{
+	cursor:				hand;
+	color:				#333333;
+	font-size:			13px;
+	border-top:			2px solid #666666;
+	border-right:		1px solid #ffffff;
+	border-left:		2px solid #666666;
+	border-bottom:		1px solid #ffffff;
+	padding:			3px 8px 1px 7px;
+	margin-top:			-1px;
+	background-color:	#cccccc;
+}
+
+div.search_inputss{
+	float:		left;
+	margin-top:	-3px;
+}
+
+div.search_inputss input#id_searchss{
+	padding-top:	0px;
+	padding-bottom:	2px;
+	width:			300px;
+	font-size:		23px;
+	color:			#cccccc;
+	margin-right:	30px;
+}
+
+.suchform{
+	position:		absolute; top:80px;
+	padding-bottom:	10px;
+}
