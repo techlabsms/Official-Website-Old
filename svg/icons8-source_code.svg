@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-source_code</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.90934245%" y1="3.06599935%" x2="72.9939779%" y2="80.4890951%" id="linearGradient-1">
+            <stop stop-color="#FB1D5C" offset="0%"></stop>
+            <stop stop-color="#FB1D5C" stop-opacity="0.418138587" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-source_code" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M8,8 C6.897,8 6,7.103 6,6 C6,4.897 6.897,4 8,4 C9.103,4 10,4.897 10,6 C10,7.103 9.103,8 8,8 Z M8,5.999 L8,6 L8,5.999 Z" id="Shape"></path>
+            <path d="M14,8 C12.897,8 12,7.103 12,6 C12,4.897 12.897,4 14,4 C15.103,4 16,4.897 16,6 C16,7.103 15.103,8 14,8 Z M14,5.999 L14,6 L14,5.999 Z" id="Shape"></path>
+            <path d="M20,8 C18.897,8 18,7.103 18,6 C18,4.897 18.897,4 20,4 C21.103,4 22,4.897 22,6 C22,7.103 21.103,8 20,8 Z M20,5.999 L20,6 L20,5.999 Z" id="Shape"></path>
+            <path d="M43,0 L5,0 C2.243,0 0,2.243 0,5 L0,43 C0,45.757 2.243,48 5,48 L43,48 C45.757,48 48,45.757 48,43 L48,5 C48,2.243 45.757,0 43,0 Z M5,2 L43,2 C44.654,2 46,3.346 46,5 L46,10 L2,10 L2,5 C2,3.346 3.346,2 5,2 Z M43,46 L5,46 C3.346,46 2,44.654 2,43 L2,12 L46,12 L46,43 C46,44.654 44.654,46 43,46 Z" id="Shape"></path>
+            <path d="M15.171,20.248 L8.034,26.493 C7.599,26.873 7.35,27.423 7.35,28.001 C7.35,28.579 7.599,29.128 8.034,29.509 L15.171,35.753 L16.488,34.248 L9.351,27.997 L16.488,21.753 L15.171,20.248 Z" id="Shape"></path>
+            <path d="M33.529,20.285 L32.132,21.716 L38.566,28.004 L32.132,34.285 L33.529,35.716 L39.963,29.435 C40.352,29.055 40.567,28.545 40.567,28.001 C40.567,27.457 40.352,26.947 39.963,26.567 L33.529,20.285 Z" id="Shape"></path>
+            <polygon id="Shape" points="19.059 40.661 20.941 41.339 29.941 16.339 28.059 15.661"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,386 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechLabs - We Build. Digital. Shapers.</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="shortcut icon" href="pic/tl_icon_cr_p_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/Open Sans/OpenSans-Regular.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <style type="text/css" media="screen, print">
+        @font-face {
+            font-family: Nexa;
+            src: url(fonts/Nexa/Nexa-Bold.otf);
+        }
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+
+    <script>
+        window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#ffffff"
+        },
+        "button": {
+          "background": "#fb1d5c"
+        }
+      },
+      "theme": "classic",
+      "content": { 
+        "message": "🍪  Diese  Website nutzt Cookies.",
+        "href": "tech-labs.de/terms"
+      }
+    })});
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+
+
+<body>
+    <nav data-scroll-header class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/svg/tl-icon.svg" width="auto" height="25"  alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Academy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/programm">Programm</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/data-science"><img class="dropdown-icon-1" src="svg/icons8-combo_chart.svg"
+                                    alt="">Data Science</a>
+                            <a class="dropdown-item" href="/web-development"><img class="dropdown-icon-1" src="svg/icons8-source_code.svg"
+                                    alt="">Web Development</a>
+                            <!--<div class="dropdown-divider"></div>-->
+                            <a class="dropdown-item" href="/artificial-intelligence"><img class="dropdown-icon-2" src="svg/icons8-physics.svg"
+                                    alt="">
+                                Artificial Intelligence</a>
+                            <!--
+                                    <a class="dropdown-item" href="#"><img class="dropdown-icon-1" src="svg/icons8-like_it.svg"
+                                        alt="">Digital
+                                    Marketing<span class="badge">New</span></a>-->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/techlabsms">Blog</a>
+                    </li>
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>-->
+                    <li class="nav-item">
+                        <a class="nav-slack" href="https://join.slack.com/t/ms-techlabs/shared_invite/enQtNDM2OTIwMjQwOTAyLTA5YmI5NzliOGM0MTk1NTMyNmE2MWJhNTkxM2U3MmIyNTQxMjgyY2QwZTA5MDUyMmJhOTIzMzA0NDY2NDUzNmM">
+                            <button class=" btn-slack" data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                                data-content="Join our Slack! 
+                        🔥">
+                                <img class="slack-icon" src="svg/slack-icon.svg" alt="slack-icon">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="typeform-share button btn-a" href="https://techlabsde.typeform.com/to/sJkvZ5"
+                            data-mode="popup" data-submit-close-delay="5" target="_blank">
+                            <script>
+                                (function () {
+                                    var qs, js, q, s, d = document,
+                                        gi = d.getElementById,
+                                        ce = d.createElement,
+                                        gt = d.getElementsByTagName,
+                                        id = "typef_orm_share",
+                                        b = "https://embed.typeform.com/";
+                                    if (!gi.call(d, id)) {
+                                        js = ce.call(d, "script");
+                                        js.id = id;
+                                        js.src = b + "embed.js";
+                                        q = gt.call(d, "script")[0];
+                                        q.parentNode.insertBefore(js, q)
+                                    }
+                                })()
+                            </script>
+
+
+                            <button class="a btn-apply">
+                                Apply Now
+                            </button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container margintop">
+        <div class="row track-section">
+
+            <div class="col-lg-6">
+                <img class="track-picture" src="svg/ai-robot.svg" alt="">
+            </div>
+            <div class="col-lg-6 margin-top-2em">
+                <h4 data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                    data-aos-once="true" class="paddington-t-1">
+                    Entwickle intelligente Modelle
+                </h4>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="300" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Wende Artificial Neuronale Netzwerke in der Praxis an
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Verstehe die Theorien, die Möglichkeiten, aber auch Grenzen von AI
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Beschäftige dich mit AI, Machine Learning & Deep Learning
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Nutze Tensorflow für die intelligente Erkennung von Bildern
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row track-section margin-top-10em">
+
+            <div class="col-lg-6 margin-top-2em">
+                <h4 data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                    data-aos-once="true" class="paddington-t-1">
+                    Ab jetzt kannst du mitreden und umsetzen
+                </h4>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="300" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Lerne die Theorie und die enormen Vorteile von Time Series Analysis im AI Kontext kennen
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        AI ist nicht nur noch ein Buzzword für dich, sondern du verstehst die Hintergründe und
+                        Techniken dahinter
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Beeindrucke in Bewerbungsgesprächen mit deinem Knowledge aus dem AI Bereich
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Werde ein AI Guru und ein Profi in Data Classification und Processing
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="track-picture" src="svg/ai-work.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="row track-section margin-top-10em">
+            <div class="col-lg-6">
+                <img class="track-picture" src="svg/ai-world.svg" alt="">
+            </div>
+            <div class="col-lg-6 margin-top-2em">
+                <h4 data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                    data-aos-once="true" class="paddington-t-1">
+                    AI wird die Welt fundamental verändern
+                </h4>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="300" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Entwickle und arbeite mit Customer Churn Modellen
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Erstelle Prognosen für Stock Price Entwicklungen und Bewegungen auf Märkten
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Meistere den Umgang mit Theano und Keras
+                    </p>
+                </div>
+                <div class="box-benefit" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                    data-aos-easing="ease-in-out" data-aos-once="true">
+                    <div class="box-benefit-color">
+                    </div>
+                    <p class="box-benefit-text">
+                        Verstehe den Algorithmus hinter den YouTube Recommendations
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="footer-tl">
+        <div class="container-ft">
+            <div class="row cred">
+                <div class="col-lg-4">
+                    <h5 class="line-height-0 white-font">TechLabs e. V.</h5><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Academy</h5><br>
+                    <a class="foot-a" href="/data-science">Data Science</a><br>
+                    <a class="foot-a" href="/web-development">Web Development</a><br>
+                    <a class="foot-a" href="/artificial-intelligence">Artificial Intelligence</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Follow us</h5><br>
+                    <a class="foot-a" href="https://www.facebook.com/techlabsms">Facebook</a><br>
+                    <a class="foot-a" href="https://www.linkedin.com/company/techlabs-ev/">LinkedIn</a><br>
+                    <a class="foot-a" href="https://medium.com/techlabsms/">Medium</a><br>
+                    <a class="foot-a" href="https://www.instagram.com/mstechlabs">Instagram</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">About</h5> <br>
+                    <a class="foot-a" href="/about">TechLabs Team</a><br>
+                    <a class="foot-a" href="/partner">Unsere Partner</a><br>
+                    <a class="foot-a" href="https://medium.com/techlabsms/">Unser Blog</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Terms</h5><br>
+                    <a class="foot-a" href="/privacy-policy">Privacy Policy</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="https://embed.small.chat/T6QB33X0TG9834KWU9.js" async></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    var typed5 = new Typed('#typed', {
+        strings: ['Artificial Intelligence', 'Web Development', 'Digital Marketing', 'Data Science'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        cursorChar: '|',
+        smartBackspace: false,
+        loop: true,
+        backDelay: 1500,
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#down-button"]', {
+        speed: 900,
+        easing: 'easeInOutCubic',
+        header: '[data-scroll-header]'
+    });
+</script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        nav: true,
+        navText: ["<img class='nav-ctrl' src='svg/prev.svg'>", "<img class='nav-ctrl' src='svg/right.svg'>"]
+    });
+</script>
+
+
+
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="152px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <filter x="-39.5%" y="-39.5%" width="179.0%" height="179.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.164705882   0 0 0 0 0.117647059   0 0 0 0 0.741176471  0 0 0 0.145946558 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-HD-+-Data-Science" transform="translate(-793.000000, -3131.000000)">
+            <g id="Group-18" transform="translate(374.000000, 3157.000000)">
+                <g id="instagram" transform="translate(445.000000, 0.000000)">
+                    <g id="Oval-4">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M62.9340549,18 L37.0659451,18 C26.5529387,18 18,26.5529387 18,37.0659451 L18,62.9340549 C18,73.4470613 26.5529387,82 37.0659451,82 L62.9340549,82 C73.4470613,82 82,73.4470613 82,62.9340549 L82,37.0659451 C81.9998839,26.5529387 73.4469452,18 62.9340549,18 Z M75.5616024,62.9340549 C75.5616024,69.9079984 69.9079984,75.5616024 62.9340549,75.5616024 L37.0659451,75.5616024 C30.0920016,75.5616024 24.4383976,69.9079984 24.4383976,62.9340549 L24.4383976,37.0659451 C24.4383976,30.0918854 30.0920016,24.4383976 37.0659451,24.4383976 L62.9340549,24.4383976 C69.9079984,24.4383976 75.5616024,30.0918854 75.5616024,37.0659451 L75.5616024,62.9340549 Z" id="Shape" fill="#C22E58" fill-rule="nonzero"></path>
+                    <path d="M50.5,34 C41.4018854,34 34,41.4019114 34,50.4999421 C34,59.5979729 41.4018854,67 50.5,67 C59.5981146,67 67,59.5980886 67,50.4999421 C67,41.4017956 59.5981146,34 50.5,34 Z M50.5,60.5821852 C44.9317695,60.5821852 40.417908,56.0683079 40.417908,50.5000579 C40.417908,44.9318079 44.9318853,40.4179306 50.5,40.4179306 C56.0682305,40.4179306 60.582092,44.9318079 60.582092,50.5000579 C60.582092,56.0681921 56.0681147,60.5821852 50.5,60.5821852 Z" id="Shape" fill="#C22E58" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#C22E58" fill-rule="nonzero" cx="67" cy="34" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

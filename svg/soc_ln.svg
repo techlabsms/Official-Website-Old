@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="152px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <filter x="-39.5%" y="-39.5%" width="179.0%" height="179.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.164705882   0 0 0 0 0.117647059   0 0 0 0 0.741176471  0 0 0 0.14673913 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-HD-+-Data-Science" transform="translate(-645.000000, -3131.000000)">
+            <g id="Group-18" transform="translate(374.000000, 3157.000000)">
+                <g id="Group-17" transform="translate(297.000000, 0.000000)">
+                    <g id="Oval-4">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-20" transform="translate(23.000000, 21.000000)" fill="#2186FF" fill-rule="nonzero">
+                        <g id="linkedin">
+                            <g id="Group-21">
+                                <path d="M7.00114133,0 C10.8005476,0 14,3.19943618 14,6.99882328 C14,10.9981185 10.6005252,14.0976573 7.00114133,13.9976466 C3.30174622,14.0976573 0.00228265962,10.9981185 0.00228265962,6.99882328 C-0.0977285424,3.09942549 3.10183708,0 7.00114133,0" id="Shape"></path>
+                                <path d="M11.0001133,56 L3,56 C1.90002832,56 1,55.1230557 1,54.0512962 L1,19.9487038 C1,18.8769443 1.8,18 2.89997168,18 L11,18 C12.0999717,18 13,18.8769443 13,19.9487038 L13,54.148759 C13.0001133,55.1230557 12.100085,56 11.0001133,56" id="Shape"></path>
+                                <path d="M56.9003485,29.8699647 C56.9003485,22.6549912 51.4147687,17 44.0342281,17 L41.9397381,17 C37.9502872,17 34.0604879,18.8524514 31.9659979,21.875 C31.2678722,22.5574647 30.9685787,22.8500442 30.9685787,22.8500442 L30.9685787,18.9500884 C30.9685787,18.5600928 30.3701045,17.9750442 29.9711594,17.9750442 L19.9974192,17.9750442 C19.5984741,17.9750442 19,18.3650398 19,18.8525619 L19,55.2200088 C19,55.6100044 19.5984741,56 19.9974192,56 L30.9684657,56 C31.3674108,56 31.9658849,55.6100044 31.9658849,55.2200088 L31.9658849,34.1599161 C31.9658849,30.5524293 34.7585005,27.5298807 38.4487709,27.4324647 C40.3437318,27.4324647 42.0392767,28.1149293 43.3358765,29.3824426 C44.5327117,30.5524293 45.0314213,32.2099381 45.0314213,34.0623896 L45.0314213,55.0248454 C45.0314213,55.414841 45.6298955,55.9998896 46.0288406,55.9998896 L56.0025808,55.9998896 C56.4015259,55.9998896 57,55.414841 57,55.0248454 L57,29.8699647 L56.9003485,29.8699647 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

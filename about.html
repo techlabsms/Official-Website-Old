@@ -1,0 +1,501 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechLabs - We Build. Digital. Shapers.</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="shortcut icon" href="pic/tl_icon_cr_p_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/Open Sans/OpenSans-Regular.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <style type="text/css" media="screen, print">
+        @font-face {
+            font-family: Nexa;
+            src: url(fonts/Nexa/Nexa-Bold.otf);
+        }
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+
+    <script>
+        window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#ffffff"
+        },
+        "button": {
+          "background": "#fb1d5c"
+        }
+      },
+      "theme": "classic",
+      "content": { 
+        "message": "🍪  Diese  Website nutzt Cookies.",
+        "href": "tech-labs.de/terms"
+      }
+    })});
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+
+
+<body>
+    <nav data-scroll-header class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/svg/tl-icon.svg" width="auto" height="25"  alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Academy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/programm">Programm</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/data-science"><img class="dropdown-icon-1" src="svg/icons8-combo_chart.svg"
+                                        alt="">Data Science</a>
+                                <a class="dropdown-item" href="/web-development"><img class="dropdown-icon-1" src="svg/icons8-source_code.svg"
+                                        alt="">Web Development</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                                <a class="dropdown-item" href="/artificial-intelligence"><img class="dropdown-icon-2" src="svg/icons8-physics.svg"
+                                        alt="">
+                                    Artificial Intelligence</a>
+                                <!--
+                                    <a class="dropdown-item" href="#"><img class="dropdown-icon-1" src="svg/icons8-like_it.svg"
+                                        alt="">Digital
+                                    Marketing<span class="badge">New</span></a>-->
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/techlabsms">Blog</a>
+                    </li>
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>-->
+                    <li class="nav-item">
+                        <a class="nav-slack" href="https://join.slack.com/t/ms-techlabs/shared_invite/enQtNDM2OTIwMjQwOTAyLTA5YmI5NzliOGM0MTk1NTMyNmE2MWJhNTkxM2U3MmIyNTQxMjgyY2QwZTA5MDUyMmJhOTIzMzA0NDY2NDUzNmM">
+                            <button class=" btn-slack" data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                                data-content="Join our Slack! 
+                        🔥">
+                                <img class="slack-icon" src="svg/slack-icon.svg" alt="slack-icon">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="typeform-share button btn-a" href="https://techlabsde.typeform.com/to/sJkvZ5"
+                            data-mode="popup" data-submit-close-delay="5" target="_blank">
+                            <script>
+                                (function () {
+                                    var qs, js, q, s, d = document,
+                                        gi = d.getElementById,
+                                        ce = d.createElement,
+                                        gt = d.getElementsByTagName,
+                                        id = "typef_orm_share",
+                                        b = "https://embed.typeform.com/";
+                                    if (!gi.call(d, id)) {
+                                        js = ce.call(d, "script");
+                                        js.id = id;
+                                        js.src = b + "embed.js";
+                                        q = gt.call(d, "script")[0];
+                                        q.parentNode.insertBefore(js, q)
+                                    }
+                                })()
+                            </script>
+
+
+                            <button class="a btn-apply">
+                                Apply Now
+                            </button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="about-hero">
+        <div class="container margin-top-2em about-us-to-top">
+            <div class="spacer" data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+                <h1 class="nomargin paddington-t-2">About us</h1>
+            </div>
+            <h5 data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                data-aos-once="true" class="paddington-t-1">We. Build. Digital. Shaper.</h5>
+            <img data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                data-aos-once="true" class="paddington-t-2" src="svg/tl-divider.svg" alt="">
+
+            <p data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+                data-aos-once="true" class="paddington-t-3">
+                Wir sind TechLabs. Eine Community zum Digitalwerden. <br>
+                Uns alle verbindet der Glaube an den Fortschritt <br>
+                der Digitalisierung.
+            </p>
+            <a class="paddington-t-2" data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700"
+                data-aos-easing="ease-in-out" data-aos-once="true" data-scroll href="#down-button">
+                <img src="/svg/down-button.svg" class="down-button" data-aos="fade-up" data-aos-offset="0"
+                    data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-once="true" alt="down-button">
+            </a>
+        </div>
+    </div>
+
+    <div class="container margin-top-2em">
+        <div class="spacer" data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+            <h1 class="nomargin paddington-t-2" id="down-button">Die Gesichter hinter TechLabs</h1>
+        </div>
+        <h5 data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+            data-aos-once="true" class="paddington-t-1">Unsere Mission ist Digital first.</h5>
+        <img data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out"
+            data-aos-once="true" class="paddington-t-2" src="svg/tl-divider.svg" alt="">
+    </div>
+
+
+    <div class="margin-top-4em container">
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="700"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+                <img src="team/david.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">David</h4> <br>
+                <p class="p-team">Gründer und Kopf hinter der TechLabs-Vision. Mit voller Leidenschaft setzt sich David
+                    jeden Tag
+                    dafür ein, jungen Menschen digitale Skills zu vermitteln. Bei TechLabs arbeitet er gemeinsam mit
+                    dem Team und unseren Partnern an der kontinuierlichen Weiterentwicklung der TechLabs-Idee.
+                    Lieblingsorte: Jazzclubs, Klavier, Küche. Als hauptberuflicher Data Scientist ist ihm unser Data
+                    Science Track natürlich ganz besonders ans Herz gewachsen.<br> <br>
+
+                    <span class="funfact">fun fact:</span> Zweitstudium Philosophie & Politik <span class="team-hashtag">#philosopher</span>
+                </p>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="700"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+                <img src="team/marius.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Marius</h4> <br>
+                <p class="p-team">Gründer von TechLabs und verantwortlich für Strategie, Geschäftsentwicklung und
+                    Netzwerke. Immer auf
+                    der Suche nach Möglichkeiten um Impact für die Teilnehmenden zu generieren - neue Partner, neue
+                    Benefits oder ein noch besseres Netzwerk in die Tech-Welt. Fasziniert von Startups und digitalen
+                    Unternehmen - aber mindestens genauso Fitness-und Sport begeistert. Leidenschaftlicher Coach für
+                    Themen rund um Career & Self-Development & Podcast Junkie. <br> <br>
+
+                    <span class="funfact">fun fact:</span> trackt zu viele Dinge in seinem Leben <span class="team-hashtag">#quantifiedself</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/Jonas.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Jonas <a href="https://linkedin.com/in/wagnr"><i class="fab fa-linkedin"></i></a></h4>
+                <br>
+                <p class="p-team">
+                    Ein Auge fürs Design, Excel Guru und Gründer von TechLabs - das ist Jonas. Bei TechLabs kümmert er
+                    sich schwerpunktmäßig um das Marketing, designed die Website und treibt das TechLabs Business
+                    Development voran. Neben TechLabs macht er gerne Kraftsport, verfolgt e-sports, verschlingt
+                    Leadership Bücher und ist leidenschaftlicher Wakeboarder. 🏄 Wenn Jonas einen Lieblingstrack hätte,
+                    wäre es definitiv eine Mischung aus Data Science und Web Development - Graphen & Design - voll
+                    sein Ding!
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> kennt jedes tool <span class="team-hashtag">#producthuntdaily</span>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="team/janan.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Janan</h4> <br>
+                <p class="p-team">
+                    Enthusiast für Startups und digitale Geschäftsmodelle. Bei TechLabs kümmert sich Janan
+                    hauptsächlich um administrative Aufgaben, ist bei Bedarf aber auch im Marketing oder Fundraising
+                    aktiv. Neben dem Studium begeistert er sich noch für außenpolitische Themen und für die
+                    Auswirkungen von Technologie auf die Gesellschaft. Er kann sich wie bei so vielen Dingen, noch
+                    nicht für einen bestimmten Lieblingstrack entscheiden. <br> <br>
+
+                    <span class="funfact">funfact:</span> findet immer die besten Deals <span class="team-hashtag">#mydealzalarm</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/jana.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Jana</h4> <br>
+                <p class="p-team">
+                    Univorlesungen sind nicht so Janas Ding. Stattdessen lernt sie lieber im Café bei einem
+                    leckeren Cappuccino oder denkt sich eine StartUp Idee nach der anderen aus. Am liebsten würde
+                    sie selbst einmal gründen. Bei TechLabs ist Jana vor allem im Business Development Bereich
+                    tätig. Als Teilnehmerin hat sie selbst bereits an unserem DataScience Track teilgenommen und
+                    brennt nun dafür immer mehr Studenten das Erlernen von Tech Skills zu ermöglichen.
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> schafft es erfolgreich ihr Handy alle paar Monate zu
+                    zerstören
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="team/nils.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Nils</h4> <br>
+                <p class="p-team">
+                    Nils sorgt dafür, dass die Teilnehmenden von Anfang bis Ende des Semesters eine optimale
+                    Lernerfahrung in den drei verschiedenen Tracks bei TechLabs bekommen. Dazu gehört
+                    beispielsweise das Zusammenstellen von Online-Kursmaterial, die Individualisierung des
+                    Curriculums für jeden Teilnehmenden und die Planung der Projektphase. Da er als
+                    Curriculum-Verantwortlicher selbstverständlich Neutralität wahrt, liegen ihm alle der drei
+                    Lerntracks gleichsam am Herzen. <br> <br>
+
+                    <span class="funfact">funfact:</span> Ist eine lebende Online-Kurs-Datenbank.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/anna.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Anna</h4> <br>
+                <p class="p-team">
+                    Anna ist erst happy, wenn es für die Community gut läuft. Sie steckt hinter dem Recruiting, der
+                    Teilnehmendenbetreuung und der Meetingskonzipierung. Hat eine große Schwäche für Frankreich,
+                    liebt das Münsteraner Hansaviertel und ist fasziniert von Menschen und Musik. Wenn sie sich
+                    nicht gerade irgendwo zwischen Tech, Menschen und Musik verliert, stöbert sie nach den neuesten
+                    Trends rund um Fitness und Food. Da sie sämtliches Verhalten und Erleben am liebsten
+                    quantifiziert hätte, ist natürlich der Data Science Track ihr Favorit.
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> überlebt das digitale Zeitalter auch mit einem alten
+                    iPhone 4 - back to the basics!
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="team/lorenz.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Lorenz</h4> <br>
+                <p class="p-team">
+                    Wenn er nicht gerade am rudern ist oder im Café lernt, ist Lorenz im Kopf bei TechLabs. Dort
+                    kümmert er sich die Ausarbeitung neuer Partnerships und betreut unsere bestehenden Partner. Im
+                    Finance und Accounting Bereich zuhause, interessieren ihn insbesondere die Digitalisierung von
+                    Prozessen innerhalb von Unternehmen. <br> <br>
+
+                    <span class="funfact">funfact:</span> Frühaufsteher, sofern genug Kaffee da ist
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/miriam.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Miriam</h4> <br>
+                <p class="p-team">
+                    Miriam lebt Customer Happiness und ist erst dann zufrieden, wenn auch unsere Teilnehmer genauso
+                    für ein Thema brennen wie sie. Bei TechLabs ist sie daher im Marketing Team für das CRM
+                    zuständig. "Nordisch by Nature" ist ihr Motto, selbstverständlich liebt sie also das Wasser und
+                    alles, was damit zu tun hat. In Münster kann sie der viele Regen deshalb nicht vom Spaß
+                    abhalten. Mit Data Science hat sie selbst bei TechLabs gestartet, der Track hat also einen
+                    besonderen Platz in ihrem Herzen.
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> Sie hat sich noch nie verlaufen <span class="team-hashtag">#orientierungssinnonfleek</span>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="team/julian.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Julian</h4> <br>
+                <p class="p-team">
+                    Von Beginn an dabei und fasziniert von dem Konzept versucht Julian weitere Menschen mit seiner
+                    Begeisterung für TechLabs anzustecken. Daraus entstandene Aufgaben waren unter anderem die
+                    Unterstützung bei Fördermitteln und Marketing. Neben TechLabs interessieren ihn eine Vielzahl von
+                    Sachen. Vor allem aber Kochen, Sport, sowie fast alle Themen, die irgendwie mit Digitalisierung zu
+                    tun haben. <br> <br>
+
+                    <span class="funfact">funfact:</span> Leidenschaftlicher Flowerstick-Spieler
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/mert.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Mert</h4> <br>
+                <p class="p-team">
+                    Liebt Startups, Menschen voller Tatendrang und digitales Leben. Bei TechLabs beschäftigt er sich
+                    mit Growth und der strategischen Ausrichtung des Vereins. Privat verbringt er viel Zeit im Gym, am
+                    Klavier und an der Gitarre, sowie damit sich (teilweise unnütze) Skills anzueignen. Zu den
+                    sinnvolleren Fähigkeiten, die er beherrschen will, zählt definitiv sein Lieblingstrack - Data
+                    Science.
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> hat kein Fahrrad <span class="team-hashtag">#noleeze</span>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="pic/testimonial-arian.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Arian</h4> <br>
+                <p class="p-team">
+                    Die Mathematik ist Arians stetiger Wegbegleiter. Als waschechter Theoretiker interessiert er sich
+                    für jede Formel hinter einem Algorithmus und wünscht sich alles bis ins kleinste Detail zu
+                    verstehen. Als Mitglied des Curriculum-Teams von TechLabs unterstützt er bei der Bereitstellung von
+                    passendem Kursmaterial und fordernden Challenges für die Teilnehmer. Einer von Arians Träumen
+                    beinhaltet die Vision eigene Algorithmen gegeneinander antreten zu lassen, dementsprechend liegt
+                    ihm der AI - Track besonders am Herzen. <br> <br>
+
+                    <span class="funfact">funfact:</span> eSports-Enthusiast und Hobby-Philosoph
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="team/niklas.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Niklas</h4> <br>
+                <p class="p-team">
+                    Viel unterwegs, oft im Gespräch, meist mit Unternehmen, da liegt es nahe, dass Niklas sich bei
+                    TechLabs hauptsächlich um das Unternehmensnetzwerk kümmert. Wenn er mal nicht im Zug, in der
+                    DB-Lounge oder am am Bahnhof steht, steht er in der Küche - er kocht und isst sehr gerne. Als
+                    Ausgleich liebt er es, schnell mit seinem Rennrad zu fahren oder wandern zu gehen. Da er am
+                    liebsten alles lernen würde, hat er sich noch nicht für einen Track fest entscheiden können.
+                    <br> <br>
+
+                    <span class="funfact">fun fact:</span> Kinofreak wegen des Popcorns - Film nicht so wichtig
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="team/marie.jpg" class="teamfoto" alt="">
+                <h4 class="h-team">Marie</h4> <br>
+                <p class="p-team">
+                    Marie liebt und lebt Kreativität. Das zeigt sie bei TechLabs im Marketing-Team, indem sie für eine
+                    wunderbare Symbiose zwischen Design und PR sorgt. Ganz besonders liegt ihr ein frischer Content und
+                    der Kontakt zu Journalisten am Herzen. Wenn sie nicht mit Wörtern oder Pixeln spielt, stöbert sie
+                    stundenlang im Internet nach neuen Underground-Musiktrends und Designbewegungen. Da ist es ganz
+                    klar, dass Web Development ihr Lieblingstrack ist. <br> <br>
+
+                    <span class="funfact">funfact:</span> muss sich noch was einfallen lassen..
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer-tl">
+        <div class="container-ft">
+            <div class="row cred">
+                <div class="col-lg-4">
+                    <h5 class="line-height-0 white-font">TechLabs e. V.</h5><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Academy</h5><br>
+                    <a class="foot-a" href="/data-science">Data Science</a><br>
+                    <a class="foot-a" href="/web-development">Web Development</a><br>
+                    <a class="foot-a" href="/artificial-intelligence">Artificial Intelligence</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Follow us</h5><br>
+                    <a class="foot-a" href="https://www.facebook.com/techlabsms">Facebook</a><br>
+                    <a class="foot-a" href="https://www.linkedin.com/company/techlabs-ev/">LinkedIn</a><br>
+                    <a class="foot-a" href="https://medium.com/techlabsms/">Medium</a><br>
+                    <a class="foot-a" href="https://www.instagram.com/mstechlabs">Instagram</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">About</h5> <br>
+                    <a class="foot-a" href="/about">TechLabs Team</a><br>
+                    <a class="foot-a" href="/partner">Unsere Partner</a><br>
+                    <a class="foot-a" href="https://medium.com/techlabsms/">Unser Blog</a><br>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="line-height-0 white-font">Terms</h5><br>
+                    <a class="foot-a" href="/privacy-policy">Privacy Policy</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="https://embed.small.chat/T6QB33X0TG9834KWU9.js" async></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    var typed5 = new Typed('#typed', {
+        strings: ['Artificial Intelligence', 'Web Development', 'Digital Marketing', 'Data Science'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        cursorChar: '|',
+        smartBackspace: false,
+        loop: true,
+        backDelay: 1500,
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#down-button"]', {
+        speed: 900,
+        easing: 'easeInOutCubic',
+        header: '[data-scroll-header]'
+    });
+</script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        nav: true,
+        navText: ["<img class='nav-ctrl' src='svg/prev.svg'>", "<img class='nav-ctrl' src='svg/right.svg'>"]
+    });
+</script>
+
+
+
+</html>

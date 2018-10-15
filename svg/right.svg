@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-35.0%" y="-30.0%" width="170.0%" height="170.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.984313725   0 0 0 0 0.11372549   0 0 0 0 0.360784314  0 0 0 0.183508832 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-HD-+-Data-Science" transform="translate(-607.000000, -2400.000000)">
+            <g id="Group-10" transform="translate(620.000000, 2410.000000)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FB1D5C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M20.4,43.2705882 L20.4000871,38.2322974 C20.4008242,37.872455 20.4990029,37.5196181 20.6840703,37.2117118 C20.9112438,36.8588832 21.2321609,36.5772038 21.6103964,36.3986453 L31.8033642,31.0541787 C32.7242769,30.6051542 33.6928643,30.2627674 34.6905265,30.0335931 C34.1496062,29.8975151 33.6391126,29.7478292 33.1624266,29.5913394 C32.6964775,29.4339373 32.2441854,29.2382321 31.8101257,29.0062036 L21.6103964,23.6923547 C21.2321609,23.5137962 20.9112438,23.2321167 20.6840703,22.8792882 C20.4949754,22.5643988 20.3966498,22.2027885 20.4000871,21.8348889 L20.4,16.8 L42.6352941,28.6047733 L42.6352941,31.4556091 L20.4,43.2705882 Z" id="arrow" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
