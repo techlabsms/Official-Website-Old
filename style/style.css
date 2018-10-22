@@ -76,8 +76,8 @@ p {
     transition: 0.3s ease-in-out;
     border: solid 1px #FB1D5C;
     margin-left: 1rem;
-    /* Hide the apply button from every website */
     display: none;
+    /* Hide the apply button from every tech-labs.de page with "display: none;" */
 }
 
 .btn-apply:hover {
