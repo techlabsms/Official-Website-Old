@@ -77,7 +77,7 @@ p {
     border: solid 1px #FB1D5C;
     margin-left: 1rem;
     /* Hide the apply button from every website */
-    /*display: none;*/
+    display: none;
 }
 
 .btn-apply:hover {
