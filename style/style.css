@@ -760,3 +760,25 @@ p {
 .margin-b-0 {
     margin-bottom: 0px !important;
 }
+
+.partner-logo-wb {
+    width: 80%;
+    height: auto;
+    margin: 0;
+    position: relative ;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.partner-hero {
+    width: 100%;
+    height: auto;
+}
+
+.partner-hero-pic {
+    width: 100%;
+    height: auto;
+    max-height: 370px;
+}
