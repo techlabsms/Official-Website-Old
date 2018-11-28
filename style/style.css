@@ -239,8 +239,9 @@ p {
 }
 
 .partner-svg {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: auto;
+    max-width: 150px;
 }
 
 .our-partner {
