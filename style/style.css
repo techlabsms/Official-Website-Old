@@ -783,3 +783,8 @@ p {
     height: auto;
     max-height: 370px;
 }
+
+.non-profit-heading{
+    padding-top: 5%;
+    text-align: center;
+}
