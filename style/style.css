@@ -788,3 +788,23 @@ p {
     padding-top: 5%;
     text-align: center;
 }
+
+.card-title{
+    color: #FB1D5C !important;
+}
+
+.card-partner{
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 5%;
+    height: 60%;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.card-img-top{
+   margin-left: auto !important;
+}
