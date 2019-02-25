@@ -429,11 +429,25 @@ p {
     background-color: white;
 }
 
+.edyoucatedbanner {
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    padding: 1.8em !important;
+}
+
+.bannerchoice {
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    padding: 1.8em !important;
+}
 
 .margintop {
     margin-top: 8em !important;
 }
 
+.margintop2 {
+    margin-top: 2em !important;
+}
 
 .testimonial-pic {
     width: 150px !important;
