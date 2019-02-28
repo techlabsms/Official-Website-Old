@@ -543,7 +543,9 @@ p {
 .middde {
     margin: 0 auto;
     display: table;
+
 }
+
 
 @keyframes pulse_animation {
     0% {
