@@ -76,7 +76,7 @@ p {
   transition: .3s ease-in-out;
   border: solid 1px #FB1D5C;
   margin-left: 1rem;
-  display: none;
+  display: block;
   /* Hide the apply button from every tech-labs.de page with "display: none;" */
 }
 
