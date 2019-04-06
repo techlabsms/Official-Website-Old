@@ -24,6 +24,25 @@ nav {
   padding-left: 1.3rem !important;
 }
 
+.faq-container {
+  margin-top:3em !important;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card-header {
+  background-color: white !important;
+}
+
+.btn.btn-link {
+  font-size: 18px !important;
+  color: #fB1D5C;
+  overflow-wrap: break-word !important;
+  text-align: start;
+  white-space: normal;
+}
+
+
 .badge,
 .popover,
 h1,

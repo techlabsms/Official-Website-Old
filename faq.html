@@ -1,0 +1,637 @@
+<html lang="en">
+
+<head>
+    <!-- Hotjar Tracking Code for tech-labs.de -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1104294,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechLabs - We Build. Digital. Shapers.</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113533725-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113533725-1');
+    </script>
+    <meta name="description"
+        content="TechLabs ist eine Plattform für junge Leute aller Disziplinen. Wir vermitteln State-of-the-Art Tech-Skills, um die Probleme unserer Zeit digital und unternehmerisch zu lösen." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="cache-control" content="max-age=86400">-->
+    <!--<meta http-equiv="expires" content="Thu, 21 May 2018 3:00:00 GMT" />-->
+    <meta http-equiv="last-modified" content="Mon, 15 October 2018 3:00:00 GMT" />
+    <link href="dist/jquery.messagebar.min.css" rel="stylesheet">
+    <script src="dist/jquery.messagebar.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="shortcut icon" href="pic/tl_icon_cr_p_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/Open Sans/OpenSans-Regular.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css" media="screen, print">
+        @font-face {
+            font-family: Nexa;
+            src: url(fonts/Nexa/Nexa-Bold.otf);
+        }
+    </style>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#fb1d5c"
+                    }
+                },
+                "theme": "classic",
+                "content": {
+                    "message": "🍪  Diese  Website nutzt Cookies.",
+                    "href": "/privacy-policy.html"
+                }
+            })
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+    <nav data-scroll-header class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/svg/tl-icon.svg" class="d-none d-sm-block" width="auto" height="25" alt="tl-logo">
+                <img src="/svg/tl-icon-o.svg" class="d-sm-none" width="auto" height="25" alt="tl-icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Academy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/programm">Programm</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/data-science"><img class="dropdown-icon-1"
+                                    src="svg/icons8-combo_chart.svg" alt="">Data Science</a>
+                            <a class="dropdown-item" href="/web-development"><img class="dropdown-icon-1"
+                                    src="svg/icons8-source_code.svg" alt="">Web Development</a>
+                            <!--<div class="dropdown-divider"></div>-->
+                            <a class="dropdown-item" href="/artificial-intelligence"><img class="dropdown-icon-2"
+                                    src="svg/icons8-physics.svg" alt="">
+                                Artificial Intelligence</a>
+                            <!--
+                                    <a class="dropdown-item" href="#"><img class="dropdown-icon-1" src="svg/icons8-like_it.svg"
+                                        alt="">Digital
+                                    Marketing<span class="badge">New</span></a>-->
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/about">Team</a>
+                            <a class="dropdown-item" href="/partner">Partner</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/techlabsms">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DE 🇩🇪
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./en/e-index.html">EN 🇬🇧</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>-->
+                    <li class="nav-item">
+                        <a class="nav-slack"
+                            href="https://join.slack.com/t/ms-techlabs/shared_invite/enQtNDM2OTIwMjQwOTAyLTA5YmI5NzliOGM0MTk1NTMyNmE2MWJhNTkxM2U3MmIyNTQxMjgyY2QwZTA5MDUyMmJhOTIzMzA0NDY2NDUzNmM">
+                            <button class=" btn-slack" data-toggle="popover" data-trigger="hover"
+                                data-placement="bottom" data-content="Join our Slack! 
+                        🔥">
+                                <img class="slack-icon" src="svg/slack-icon.svg" alt="slack-icon">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="typeform-share button btn-a" href="/apply" target="_blank">
+                            <button class="a btn-apply">
+                                Apply Now
+                            </button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="faq-container">
+        <h1>The Timeline</h1>
+        <div>
+            <p>                
+                    <span class="team-hashtag">16.04.2019</span> Kick-Off in das Semester <br>
+                    <span class="team-hashtag">17.04.2019</span> Social mit der Community <br>
+                    <span class="team-hashtag">24.04.2019</span> Beginner Workshop <br>
+                    <span class="team-hashtag">29.05.2019</span> Kick-Off in die Projektphase <br>
+            </p>
+        </div>
+
+
+        <h1 class="margintop2">Our FAQ</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Wie kann ich mich auf das Digital Shaper Programm bewerben?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        Das geht direkt über unser Bewerbungsformular. Hier kommst du zum Link:
+                        <a href="https://tech-labs.de/apply">tech-labs.de/apply</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Wann erhalte ich eine Rückmeldung?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Wenige Tage nachdem das Bewerbungstool geschlossen wird, wirst du von uns eine Rückmeldung
+                        erhalten. Wir arbeiten auf Hochtouren daran, alle Bewerbungen sorgfältig zu sichten und
+                        auszuwählen. Wir bitten deswegen um dein Verständnis und deine Geduld.
+                        <br> <br>
+                        Bei dringenden Fragen kannst du uns direkt eine E-Mail an <a href="ms.bewerbung@techlabs.org">ms.bewerbung@techlabs.org</a> schreiben.
+                        Wir arbeiten daran, dir so schnell wie möglich eine Antwort zu geben.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Was sollte ich in der Bewerbung schreiben, um aufgenommen zu werden?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Bei TechLabs wollen wir dich und deine Motivation besser kennen lernen. Deswegen gilt generell, dass es bei der Beantwortung der Fragen kein richtig oder falsch gibt. Bitte achte nur darauf, dass sich deine Antwort wirklich genau auf die Frage bezieht. Wichtige Aspekte, die sich nicht auf die Frage beziehen, können wir leider nicht bewerten.
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Wie viele Leute nehmt ihr dieses Mal auf?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Eine konkrete Zahl können wir vor Sichtung aller Bewerbungen nicht nennen.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            An wen kann ich mich bei Fragen melden?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Das Recruiting Team erreichst du unter ms.bewerbung@techlabs.org
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ich bin aktuell im Auslandssemester/nicht in Münster/im Praktikum. Kann ich mich trotzdem bewerben?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Natürlich kannst du dich bewerben. Wir prüfen deine Bewerbung individuell. Dennoch empfehlen wir dir, vor Ort zu sein oder nach Möglichkeiten Münster gut erreichen zu können. Besonders mit Blick auf die Projektphase erwies es sich unserer Erfahrung nach als besonders vorteilhaft vor Ort zu sein.
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ich bin aktuell im Auslandssemester/nicht in Münster/im Praktikum. Kann ich mich trotzdem bewerben?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Natürlich kannst du dich bewerben. Wir prüfen deine Bewerbung individuell. Dennoch empfehlen wir dir, vor Ort zu sein oder nach Möglichkeiten Münster gut erreichen zu können. Besonders mit Blick auf die Projektphase erwies es sich unserer Erfahrung nach als besonders vorteilhaft vor Ort zu sein.
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Kann ich mich im nächsten Semester noch bewerben?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Wir begrüßen jederzeit deine Bewerbung! Unsere Bewerbungsphasen starten immer zu Beginn des Semesters.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Wie kann ich mir den Zeitaufwand vorstellen?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Generell ist Lernen ein individueller Prozess. Dennoch empfehlen wir dir regelmäßig an deinem Curriculum zu arbeiten und etwa 5h Zeitaufwand pro Woche einzukalkulieren. Bitte bedenke auch, dass die Projektphase erhöhten Koordinationsaufwand mit deinem Projektteam bedeuten kann. In jedem Fall wird sich die investierte Zeit lohnen.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ich habe keinerlei Tech-Skills. Ist das schlimm?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        TechLabs verfolgt das Ziel, alle Leute unabhängig von ihrem Kenntnisstand zu Digital Shaper zu machen. Deswegen begrüßen wir deine Bewerbung! Außerdem berücksichtigen wir deine Vorkenntnisse mit unseren individualisierten Lernpfaden. 
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Kann ich meinen Track noch wechseln, auch wenn ich bei der Bewerbung einen anderen Track angegeben habe?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Selbstverständlich! Beim Kick-Off Event im Semester wirst du tiefergehende Informationen zum Track erhalten. Danach erst wählst du final deinen Track. Selbst wenn du im Verlauf deines Semesters merken solltest, dass dir doch andere Tracks besser liegen, finden wir eine individuelle Lösung für dich. Sprich uns während des Semesters gerne direkt an.
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Was passiert, wenn das TL-Semester vorbei ist? Habe ich dann noch Zugang zu den Kursen?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Ja, der Zugang zu dem Lernpfad deines regulären TechLabs-Tracks auf der Lernplattform edyoucated bleibt bestehen. Außerdem werden wir weitere öffentlich zugängliche Lerntracks mit der Zeit auf edyoucated ergänzen, die inhaltlich über die TechLabs-Tracks hinaus gehen. 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Wie finanziert ihr euch?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Als gemeinnütziger Verein werden wir durch Spenden finanziert und arbeiten eng mit Sponsoring-Partnern zusammen.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Welche Ausgaben kommen auf mich zu?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                     Gar keine! Wir bieten dir die besten Kurse, die bestmögliche Betreuung sowie spannende Gastvorträge und Meetings mit unseren Partnern jederzeit kostenlos.
+                    Die Gebühren für die Online-Kurse werden dir zurückerstattet. Genauere Informationen folgen im Semester.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Wie läuft der Rückerstattungsprozess der Kursgebühren ab?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Genaue Informationen zum Rückerstattungsprozess von Kursgebühren wirst du zu Beginn des Semesters erhalten. Bei Fragen kannst du dich jederzeit an uns wenden.
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Unter welchen Bedingungen erhalte ich das Digital Shaper Zertifikat?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Das Zertifikat erhältst du, wenn du das Projekt zusammen mit deiner aus drei bis vier Leuten bestehenden Projektgruppe am Ende der Semesterferien abschließt und die Ergebnisse in einem Blogbeitrag zusammenfasst.
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Gibt es Anwesenheitspflicht bei euren Meetings?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Wir arbeiten daran, unsere Meetings so abwechslungsreich und ansprechend wie möglich zu gestalten. Eine Anwesenheitspflicht zur Erreichung unseres Digital Shaper Zertifikates gibt es nicht.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Gibt es eine Nachrückliste?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                            Falls Plätze frei werden sollten, bemühen wir uns um eine schnelle Nachbesetzung.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Wer sind eure Kooperationspartner?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Du findest unsere aktuellen Kooperationspartner auf unserer Webseite [https://tech-labs.de/partner], schau doch gern mal dort vorbei!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Auf welcher Sprache werden die Kurse sein?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Grundsätzlich kannst du davon ausgehen, dass nur die Online-Kurse auf Englisch sein werden. Die Kurse sind allerdings gut verständlich und weiterhin gibt es bei den meisten Plattformen die Möglichkeit deutsche Untertitel einzustellen. Unsere Meetings im Semester werden in Deutsch abgehalten werden.
+                    </div>
+                </div>
+            </div>
+        
+
+
+        </div>
+    </div>
+
+    <div class="footer-tl">
+            <div class="container-ft">
+                <div class="row cred">
+                    <div class="col-lg-4">
+                        <h5 class="line-height-0 white-font">TechLabs e. V.</h5><br>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="MN4DCN76PQ726">
+                            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="line-height-0 white-font">Academy</h5><br>
+                        <a class="foot-a" href="/data-science">Data Science</a><br>
+                        <a class="foot-a" href="/web-development">Web Development</a><br>
+                        <a class="foot-a" href="/artificial-intelligence">Artificial Intelligence</a><br>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="line-height-0 white-font">Follow us</h5><br>
+                        <a class="foot-a" href="https://www.facebook.com/techlabsms">Facebook</a><br>
+                        <a class="foot-a" href="https://www.linkedin.com/company/techlabs-ev/">LinkedIn</a><br>
+                        <a class="foot-a" href="https://medium.com/techlabsms/">Medium</a><br>
+                        <a class="foot-a" href="https://www.instagram.com/mstechlabs">Instagram</a><br>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="line-height-0 white-font">About</h5> <br>
+                        <a class="foot-a" href="/about">TechLabs Team</a><br>
+                        <a class="foot-a" href="/faq">FAQ</a><br>
+                        <!--<a class="foot-a" href="/partner">Unsere Partner</a><br>-->
+                        <a class="foot-a" href="https://medium.com/techlabsms/">Unser Blog</a><br>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="line-height-0 white-font">Terms</h5><br>
+                        <a class="foot-a" href="/privacy-policy">Privacy Policy</a><br>
+                        <a class="foot-a" href="/impressum">Imprint</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="https://embed.small.chat/T6QB33X0TG9834KWU9.js" async></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script>
+
+<script type="text/javascript">
+    var typed5 = new Typed('#typed', {
+        strings: ['Artificial Intelligence', 'Web Development', 'Data Science'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        cursorChar: '|',
+        smartBackspace: false,
+        loop: true,
+        backDelay: 1500,
+    });
+</script>
+
+<script type="text/javascript">
+    var typed5 = new Typed('#typed-xs', {
+        strings: ['Artificial Intelligence', 'Web Development', 'Data Science'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        cursorChar: '|',
+        smartBackspace: false,
+        loop: true,
+        backDelay: 1500,
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#learn-more"]', {
+        speed: 900,
+        easing: 'easeInOutCubic',
+        header: '[data-scroll-header]'
+    });
+</script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        nav: true,
+        navText: ["<img class='nav-ctrl' src='svg/prev.svg'>", "<img class='nav-ctrl' src='svg/right.svg'>"]
+    });
+</script>
+
+
+
+
+
+</html>
